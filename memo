@@ -1,0 +1,41 @@
+< &lt
+
+> &gt
+
+---
+
+<section>
+    <h2 class="text-2xl font-bold"></h2>
+    <p></p>
+    <p></p>
+    <ContentDoc path="seo/use-head" />
+</section>
+
+<p></p>
+
+
+■文字囲い装飾
+<code class="word-highlight">
+
+
+■UL リスト
+<ul class="list-disc ml-5">
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+
+■マークダウン取得
+<div><ContentDoc path="configuration/define-nuxt-config" /></div>
+
+
+■インフォメーション / Tips
+<div class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
+<span class="sr-only">Info</span>
+<div>全ての設定オプションは「設定リファレンス」に詳細に記載されています。</div>
+</div>
+
+
+■リンク&ボタン
+<NuxtLink to="https://stackblitz.com/github/nuxt/starter/tree/v3/?file=README.md" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" target="_blank">Play on StackBlitz</NuxtLink>

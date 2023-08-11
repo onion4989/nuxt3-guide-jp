@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scrollbar-gutter: stable;
+  }
+  body {
+    font-weight: 400;
+    font-size: clamp(14px, 1.4vw, 16px);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    line-height: 1.5;
+    background-color: unset !important;
+  }
+}
+
+.content section {
+  margin: 2rem 0 4rem;
+}
+
+main a {
+  color: darkcyan;
+}
+main a:hover {
+  color: blue;
+}
+
+p {
+  padding: 0.5rem 0;
+}
+
+.markdown-body pre {
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+.markdown-body pre::-webkit-scrollbar {
+  width: 5px;
+}
+.markdown-body pre::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+.markdown-body pre::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 100px;
+}
+
+pre {
+  background: none !important;
+}
+
+/*Page: Configration*/
+.table-design {
+  font-size: clamp(12px, 1vw, 16px);
+}
+.table-design li {
+  padding: 5px 10px;
+}
+.table-design li:nth-child(-n + 3) {
+  background: #374151;
+  color: white;
+}
+
+/*Script Code Toolbar*/
+.toolbar-item {
+  margin: 0 0.2rem;
+}
+.toolbar-item > span,
+.toolbar-item > button {
+  border-radius: 0.1rem !important;
+}
+
+/*Page: All*/
+.word-highlight {
+  background: #374151;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+}
+
+.list-decimal,
+.list-disc {
+  margin-left: 2rem;
+}
+.list-decimal li,
+.list-disc li {
+  margin: 0.5rem 0;
+}
+
+.spacing li {
+  margin-bottom: 1rem;
+}
+
+.left-headline {
+  font-weight: bold;
+  padding: 0.1em 10px;
+  background: transparent;
+  border-left: solid 5px #374151;
+}
