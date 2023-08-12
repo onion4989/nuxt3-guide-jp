@@ -44,7 +44,7 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
       script: [
         {
-          src: "/node_modules/preline/dist/preline.js",
+          src: "/assets/js/preline/preline.js",
           body: true,
           defer: true,
         },
