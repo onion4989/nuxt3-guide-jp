@@ -13,6 +13,7 @@
           type="button"
           class="m-1 ml-0 inline-flex justify-center items-center gap-2 rounded-md border border-transparent focus:outline-none transition-all text-sm"
           data-hs-overlay="#hs-overlay-body-scrolling"
+          aria-label="Hamburger Menu"
         >
           <svg class="hs-collapse-open:hidden w-6 h-6" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path
@@ -35,6 +36,7 @@
               type="button"
               class="inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-gray-500 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white text-sm dark:text-gray-500 dark:hover:text-gray-400 dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
               data-hs-overlay="#hs-overlay-body-scrolling"
+              aria-label="Close Button"
             >
               <span class="sr-only">Close modal</span>
               <svg

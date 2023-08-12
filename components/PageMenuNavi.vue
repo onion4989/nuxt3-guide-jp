@@ -2,13 +2,8 @@
   <div>
     <nav class="lg:sticky lg:top-16 lg:self-start overflow-x-hidden overflow-y-auto h-full">
       <ul class="flex flex-col gap-2 m-auto">
-        <li>
-          <!--<NuxtLink to="/" @click="toggle" :class="{ 'underline decoration-solid decoration-1 underline-offset-4': isActive }">-->
-          <NuxtLink to="/" data-hs-overlay="#hs-overlay-body-scrolling">始めに</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/installation" data-hs-overlay="#hs-overlay-body-scrolling">インストール方法</NuxtLink>
-        </li>
+        <li><NuxtLink to="/" data-hs-overlay="#hs-overlay-body-scrolling">始めに</NuxtLink></li>
+        <li><NuxtLink to="/installation" data-hs-overlay="#hs-overlay-body-scrolling">インストール方法</NuxtLink></li>
         <li><NuxtLink to="/configuration" data-hs-overlay="#hs-overlay-body-scrolling">設定</NuxtLink></li>
         <li><NuxtLink to="/views" data-hs-overlay="#hs-overlay-body-scrolling">ビュー</NuxtLink></li>
         <li><NuxtLink to="/assets" data-hs-overlay="#hs-overlay-body-scrolling">アセット</NuxtLink></li>
@@ -26,28 +21,6 @@
     </nav>
   </div>
 </template>
-
-<script setup>
-/*
-import { ref } from "vue";
-const isActive = ref(false);
-
-const toggle = () => {
-  isActive.value = !isActive.value;
-};
-
---- Options API ---
-export default defineComponent({
-  data() {
-    return { isActive: false };
-  },
-  methods: {
-    toggle() {
-      this.isActive = !this.isActive;
-    },
-  },
-});*/
-</script>
 
 <style>
 .container .router-link-active {

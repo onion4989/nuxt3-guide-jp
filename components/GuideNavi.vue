@@ -6,6 +6,7 @@
           <button
             class="hs-accordion-toggle hs-accordion-active:text-blue-600 group pb-3 inline-flex items-center gap-x-3 w-full font-semibold text-left text-white sm:text-gray-800 transition hover:text-gray-500 dark:hs-accordion-active:text-blue-500"
             aria-controls="hs-basic-with-arrow-collapse-one"
+            aria-label="Key Concepts"
           >
             <svg
               class="hs-accordion-active:hidden hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-white sm:text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
@@ -88,6 +89,7 @@
           <button
             class="hs-accordion-toggle hs-accordion-active:text-blue-600 group pb-3 inline-flex items-center gap-x-3 w-full font-semibold text-left text-white sm:text-gray-800 transition hover:text-gray-500 dark:hs-accordion-active:text-blue-500"
             aria-controls="hs-basic-with-arrow-collapse-two"
+            aria-label="Directory Structure"
           >
             <svg
               class="hs-accordion-active:hidden hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
@@ -250,6 +252,7 @@
           <button
             class="hs-accordion-toggle hs-accordion-active:text-blue-600 group pb-3 inline-flex items-center gap-x-3 w-full font-semibold text-left text-white sm:text-gray-800 transition hover:text-gray-500 dark:hs-accordion-active:text-blue-500"
             aria-controls="hs-basic-with-arrow-collapse-three"
+            aria-label="Going further"
           >
             <svg
               class="hs-accordion-active:hidden hs-accordion-active:text-blue-600 hs-accordion-active:group-hover:text-blue-600 block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"

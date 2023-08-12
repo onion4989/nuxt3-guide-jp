@@ -24,10 +24,10 @@
 }
 
 main a {
-  color: darkcyan;
+  color: rgb(2, 99, 99);
 }
 main a:hover {
-  color: blue;
+  color: rgb(37, 37, 152);
 }
 
 p {
