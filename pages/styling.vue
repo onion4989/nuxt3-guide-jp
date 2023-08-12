@@ -25,7 +25,7 @@
       </p>
       <ContentDoc path="styling/with-conponents" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -36,14 +36,14 @@
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">CSSプロパティ</h2>
       <p>
-        また、<code class="word-highlight text-sm">nuxt.config.ts</code>で<code class="word-highlight text-sm">css</code>プロパティを設定することで簡単に利用ができます。スタイルシートの配置場所は<code
-          class="word-highlight text-sm"
+        また、<code class="word-highlight text-sm">nuxt.config.ts</code>で<code class="word-highlight text-sm">css</code
+        >プロパティを設定することで簡単に利用ができます。スタイルシートの配置場所は<code class="word-highlight text-sm"
           >assets/</code
         >ディレクトリです。 下記のように記述することで、すべてのページでmain.cssが適用されます。
       </p>
       <ContentDoc path="styling/css-property" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -56,8 +56,10 @@
     <section>
       <h1 class="text-3xl font-bold">フォントの扱い方</h1>
       <p>
-        ローカルのフォントファイルは、<code class="word-highlight text-sm">~/public/</code>ディレクトリ（例：~/public/fonts）に配置します。
-        その後、スタイルシート内で<code class="word-highlight text-sm">url()</code>を使用してください。
+        ローカルのフォントファイルは、<code class="word-highlight text-sm">~/public/</code
+        >ディレクトリ（例：~/public/fonts）に配置します。 その後、スタイルシート内で<code class="word-highlight text-sm"
+          >url()</code
+        >を使用してください。
       </p>
       <ContentDoc path="styling/with-fonts-main-css" class="markdown-body" />
     </section>
@@ -65,7 +67,10 @@
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">NPMを使用したスタイルシートの適用</h2>
       <p>
-        npmで配布されているスタイルシートを参照することもできます。ここでは、人気のある<code class="word-highlight text-sm">animate.css</code>ライブラリを例に使用しましょう。
+        npmで配布されているスタイルシートを参照することもできます。ここでは、人気のある<code
+          class="word-highlight text-sm"
+          >animate.css</code
+        >ライブラリを例に使用しましょう。
       </p>
       <ContentDoc path="styling/nmp-stylesheet" class="markdown-body" />
     </section>
@@ -77,7 +82,10 @@
         これを実現するために、異なる方法があります。
         また、ローカルのスタイルシートも同様にこの方法で含めることができます。
       </p>
-      <p>Nuxtの設定ファイルの<code class="word-highlight text-sm">app.head</code>プロパティを使用して、headセクションを操作することができます。</p>
+      <p>
+        Nuxtの設定ファイルの<code class="word-highlight text-sm">app.head</code
+        >プロパティを使用して、headセクションを操作することができます。
+      </p>
       <ContentDoc path="styling/nuxt-config" class="markdown-body" />
     </section>
 
@@ -101,7 +109,9 @@
       <p>
         より高度な制御が必要な場合は、フックを使用してレンダリングされたHTMLをインターセプト（割込み制御）し、ヘッドをプログラムで変更することができます。
       </p>
-      <p>次のように、<code class="word-highlight text-sm">~/server/plugins/my-plugin.ts</code>にプラグインを作成します。</p>
+      <p>
+        次のように、<code class="word-highlight text-sm">~/server/plugins/my-plugin.ts</code>にプラグインを作成します。
+      </p>
       <ContentDoc path="styling/my-plugin" class="markdown-body" />
       <p>
         外部のスタイルシートは、レンダリングをブロックするリソースです。
@@ -348,7 +358,7 @@
         さらに高度な操作が必要な場合は、Nuxtのビルドプロセスやランタイムを拡張するためのNuxtモジュールを作成することを検討してください。
       </p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>

@@ -11,7 +11,7 @@ definePageMeta({
         Nuxtはカスタマイズ可能なルートミドルウェアフレームワークを提供しており、アプリケーション全体で使用できます。特定のルートに移動する前に実行したいコードを抽出するのに最適です。
       </p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -46,15 +46,17 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">フォーマット</h2>
       <p>ルートミドルウェアは、現在のルートと次のルートを引数として受け取るナビゲーションガードです。</p>
-      <ContentDoc path="guide/directry-stracture/middleware/format" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/middleware/format" class="markdown-body" />
       <p>Nuxtは、ミドルウェアから直接返すことができる2つのグローバルに利用可能なヘルパーを提供しています。</p>
       <ul class="list-decimal">
         <li class="pb-5">
           <div class="font-bold">navigateTo</div>
           与えられたルートにリダイレクトします。プラグインやミドルウェアの内部で使用することができます。また、ページナビゲーションを行うために直接呼び出すこともできます。
           <hr class="w-100 divide-y divide-gray-700 my-1" />
-          <div class="text-xs">navigateTo (to: RouteLocationRaw | undefined | null, options?: { replace: boolean, redirectCode: number,
-          external: boolean })</div>
+          <div class="text-xs">
+            navigateTo (to: RouteLocationRaw | undefined | null, options?: { replace: boolean, redirectCode: number,
+            external: boolean })
+          </div>
         </li>
         <li class="pb-5">
           <div class="font-bold">abortNavigation</div>
@@ -83,7 +85,7 @@ definePageMeta({
         </li>
       </ul>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -94,7 +96,7 @@ definePageMeta({
         <li>return abortNavigation(error)は、エラーを伴う形で現在のナビゲーションを拒否します。</li>
       </ul>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -114,7 +116,7 @@ definePageMeta({
         <li>ページに定義されたミドルウェアの順序（複数のミドルウェアが配列構文で宣言されている場合）</li>
       </ul>
       <p>例えば、以下のようなミドルウェアとコンポーネントがあると仮定します:</p>
-      <ContentDoc path="guide/directry-stracture/middleware/define-pagemeta-to-from"  class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/middleware/define-pagemeta-to-from" class="markdown-body" />
       <p>以下の順序でミドルウェアが実行されることが予想されます:</p>
       <ul class="list-decimal">
         <li>analytics.global.ts</li>
@@ -132,12 +134,15 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/middleware/middleware-file-stracture" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
         <div>
-          もし「アルファベット順の番号付け」が初めての方であれば、ファイル名は数値としてではなく文字列としてソートされることを覚えておいてください。例えば、 <code class="text-sm inline-block rounded bg-gray-600 text-white p-1">10.new.global.ts</code> は <code class="text-sm inline-block rounded bg-gray-600 text-white p-1">2.new.global.ts</code> の前に来ます。このため、例では1桁の数字の前に0を付けることを示しています。
+          もし「アルファベット順の番号付け」が初めての方であれば、ファイル名は数値としてではなく文字列としてソートされることを覚えておいてください。例えば、
+          <code class="text-sm inline-block rounded bg-gray-600 text-white p-1">10.new.global.ts</code> は
+          <code class="text-sm inline-block rounded bg-gray-600 text-white p-1">2.new.global.ts</code>
+          の前に来ます。このため、例では1桁の数字の前に0を付けることを示しています。
         </div>
       </div>
     </section>
@@ -148,7 +153,7 @@ definePageMeta({
         もしサイトがサーバーレンダリングまたは生成されている場合、初期ページのミドルウェアはページがレンダリングされるときとクライアント上でも再度実行されます。これは、ミドルウェアがブラウザ環境を必要とする場合に必要になるかもしれません。例えば、生成されたサイトやキャッシュを積極的に行うサイト、またはローカルストレージから値を読み取る必要がある場合などです。
       </p>
       <p>しかしながら、もしこの動作を避けたい場合は、それが可能です:</p>
-      <ContentDoc path="guide/directry-stracture/middleware/global-middleware-stracture" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/middleware/global-middleware-stracture" class="markdown-body" />
     </section>
 
     <section>
@@ -156,17 +161,17 @@ definePageMeta({
       <p>
         addRouteMiddleware()というヘルパー関数を使用して、グローバルまたは名前付きのルートミドルウェアを手動で追加することができます。これは、プラグイン内部などから行うことが可能です。
       </p>
-      <ContentDoc path="guide/directry-stracture/middleware/default-define-nuxt-plugin" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/middleware/default-define-nuxt-plugin" class="markdown-body" />
     </section>
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">例: 名前付きのルートミドルウェア</h2>
       <ContentDoc path="guide/directry-stracture/middleware/route-middleware-file-stracture" />
       <p>ページファイル内で、このルートミドルウェアを参照することができます。</p>
-      <ContentDoc path="guide/directry-stracture/middleware/auth" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/middleware/auth" class="markdown-body" />
       <p>そのページへのナビゲーションが完了する前に、認証ルートミドルウェアが実行されます。</p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>

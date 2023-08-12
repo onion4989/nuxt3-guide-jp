@@ -23,7 +23,7 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/modules/modules-stracture" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>

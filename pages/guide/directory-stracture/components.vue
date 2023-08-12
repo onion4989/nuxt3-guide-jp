@@ -27,7 +27,7 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/components/custom-directories" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -53,7 +53,7 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-button" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -98,7 +98,7 @@ definePageMeta({
         また、特定のコンポーネントを選択してグローバルに登録する場合は、~/components/globalディレクトリに配置することもできます。
       </p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -185,7 +185,7 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-highlighted-markdown" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -247,7 +247,7 @@ definePageMeta({
         内のコンポーネントを更新する際にHMR（ホットモジュールリローディング）がサポートされます。
       </p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>

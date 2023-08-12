@@ -25,7 +25,7 @@ definePageMeta({
       <h2 class="text-lg lg:text-2xl font-bold">クイックスタート</h2>
       <p>スターター テンプレートを使用して Nuxt モジュールの使用を開始することをお勧めします。</p>
       <p>例:</p>
-      <ContentDoc path="guide/going-furture/module-author-guide/1.quick-start" class="markdown-body" />
+      <ContentDoc path="guide/going-furture/module-author-guide/quick-start" class="markdown-body" />
       <p>
         これにより、モジュールの開発と公開に必要なすべてのボイラープレートを含む my-module プロジェクトが作成されます。
       </p>
@@ -59,7 +59,7 @@ definePageMeta({
         <li>npm run dev:build でビルドします。</li>
       </ul>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -78,7 +78,7 @@ definePageMeta({
         <li>Vitest : npm run test または npm run test:watch で実行します。</li>
       </ul>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -94,7 +94,7 @@ definePageMeta({
       </p>
       <p>npm run prepack を実行してモジュールをビルドできます。</p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -107,7 +107,7 @@ definePageMeta({
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">公開の方法</h2>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-orange-50 border border-orange-200 text-sm rounded-md p-4" role="alert">
         <span class="sr-only">Info</span>
         モジュールを npm に公開する前に、npmjs.com アカウントを持っていること、および npm
         ログインを使用してローカルで認証されていることを確認してください。
@@ -143,7 +143,7 @@ definePageMeta({
         </li>
       </ul>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -181,7 +181,7 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">モジュール定義</h2>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -216,7 +216,7 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">ランタイム ディレクトリ</h2>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -248,7 +248,7 @@ definePageMeta({
       </ul>
       <p>その後、モジュール定義からアプリケーション内にこれらすべてのアセットを挿入できるようになります。</p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -288,7 +288,7 @@ definePageMeta({
         Kitユーティリティを使用することをお勧めします。
       </div>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -329,7 +329,7 @@ definePageMeta({
         ランタイム構成で公開しないように注意してください。
       </div>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -348,7 +348,7 @@ definePageMeta({
         class="markdown-body"
       />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -452,7 +452,7 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">ユニットと統合</h2>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -481,7 +481,7 @@ definePageMeta({
       <p>実際には、フィクスチャは次のようになります:</p>
       <ContentDoc path="guide/going-furture/module-author-guide/10.end-to-end" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>

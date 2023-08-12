@@ -37,7 +37,7 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">デフォルトのレイアウトを有効にする</h2>
       <p><code class="text-sm inline-block rounded bg-gray-600 text-white p-1">~/layouts/default.vue</code>を追加：</p>
-      <ContentDoc path="guide/directry-stracture/layouts/default-vue" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/layouts/default-vue" class="markdown-body" />
       <p>
         レイアウトファイルでは、レイアウトのコンテンツは<span
           class="text-sm inline-block rounded bg-gray-600 text-white p-1"
@@ -51,18 +51,18 @@ definePageMeta({
           >&lt;NuxtLayout&gt;</code
         >も追加する必要があります。
       </p>
-      <ContentDoc path="guide/directry-stracture/layouts/nuxt-layout" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/layouts/nuxt-layout" class="markdown-body" />
     </section>
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">別のレイアウトを設定する</h2>
-      <ContentDoc path="guide/directry-stracture/layouts/layout-file-stracture" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/layouts/layout-file-stracture" class="markdown-body" />
       <p>次のようにして、デフォルトのレイアウトを直接上書きできます:</p>
-      <ContentDoc path="guide/directry-stracture/layouts/layout-directly-override" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/layouts/layout-directly-override" class="markdown-body" />
       <p>また、次のようにしてページごとにデフォルトのレイアウトを上書きすることもできます:</p>
-      <ContentDoc path="guide/directry-stracture/layouts/layout-define-pagemeta" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/layouts/layout-define-pagemeta" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -78,9 +78,9 @@ definePageMeta({
           >computed</code
         >プロパティを使用することもできます。
       </p>
-      <ContentDoc path="guide/directry-stracture/layouts/dynamically-layout" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/layouts/dynamically-layout" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -98,7 +98,7 @@ definePageMeta({
           >&lt;NuxtLayout&gt;</code
         >コンポーネントを使用することで、完全な制御を取ることができます。
       </p>
-      <ContentDoc path="guide/directry-stracture/layouts/layout-false" class="markdown-body"/>
+      <ContentDoc path="guide/directry-stracture/layouts/layout-false" class="markdown-body" />
       <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
         <span class="sr-only">Info</span>
         ページ内で<code class="text-sm inline-block rounded bg-gray-600 text-white p-1">&lt;NuxtLayout&gt;</code>

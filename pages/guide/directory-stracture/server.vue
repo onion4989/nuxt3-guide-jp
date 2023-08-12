@@ -26,7 +26,7 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/server/server-directory" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -41,7 +41,7 @@ definePageMeta({
       <ContentDoc path="guide/directry-stracture/server/server-routes" class="markdown-body" />
       <p>上記の例の場合、http://localhost:3000/helloでアクセスできます。</p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -71,7 +71,7 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/server/server-plugins" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -83,7 +83,7 @@ definePageMeta({
       <h2 class="text-lg lg:text-2xl font-bold">サーバー ユーティリティ</h2>
       <p>サーバールートは、便利なヘルパーを備えたunjs/h3によって動作します。</p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -99,7 +99,7 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">サーバー タイプ</h2>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 mt-5"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200 mt-5"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -240,7 +240,7 @@ definePageMeta({
       <h3 class="text-lg lg:text-2xl font-bold my-5">例：Redisの使用</h3>
       <ContentDoc path="guide/directry-stracture/server/server-storage" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>

@@ -12,7 +12,7 @@ definePageMeta({
         Routerを内部で使用してウェブアプリケーション内にルートを作成するためのファイルベースのルーティングを提供しています。
       </p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -70,7 +70,7 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/pages/child-route-key" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -155,7 +155,7 @@ definePageMeta({
       <p>pagesフォルダー内のindex.vueページへの簡単なリンク：</p>
       <ContentDoc path="guide/directry-stracture/pages/navigation" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -182,7 +182,7 @@ definePageMeta({
         アプリが大きくなり、複雑になると、ルーティングがより柔軟性を必要とする場合があります。そのため、Nuxtは直接ルーター、ルート、およびルーターオプションをカスタマイズするためにさまざまな方法で公開しています。
       </p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
@@ -197,7 +197,7 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/pages/multiple-pages-directories" class="markdown-body" />
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>

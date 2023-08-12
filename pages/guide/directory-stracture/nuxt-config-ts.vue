@@ -12,11 +12,12 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/nuxtconfigts/nuxt-config-file" class="markdown-body" />
       <p>
-        設定が最新であることを確認するために、Nuxt はメイン設定ファイル (.env、.nuxtignore、および .nuxtrc ドットファイル) の変更を検出すると完全に再起動します。
+        設定が最新であることを確認するために、Nuxt はメイン設定ファイル (.env、.nuxtignore、および .nuxtrc
+        ドットファイル) の変更を検出すると完全に再起動します。
       </p>
     </section>
     <div
-      class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+      class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
       role="alert"
     >
       <span class="sr-only">Info</span>

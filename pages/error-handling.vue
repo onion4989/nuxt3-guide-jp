@@ -240,7 +240,7 @@
         >に設定するとデフォルトのスロットを再レンダリングします。ただし、エラーが完全に解決されていない場合、エラースロットは2回レンダリングされる可能性があるため、最初にエラーが完全に解決されていることを確認する必要があります）。
       </p>
       <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400"
+        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
         role="alert"
       >
         <span class="sr-only">Info</span>
