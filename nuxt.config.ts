@@ -19,10 +19,7 @@ export default defineNuxtConfig({
     },
   },
   pages: true,
-  css: [
-    "~/assets/css/main.css",
-    //"~/assets/css/destyle.css"
-  ],
+  css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -44,7 +41,7 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
       script: [
         {
-          src: "/assets/js/preline/preline.js",
+          src: "~/assets/js/preline/preline.js",
           body: true,
           defer: true,
         },
