@@ -24,7 +24,7 @@
 
 <script setup>
 useHead({
-  titleTemplate: "%s - British Car Demo",
+  titleTemplate: "%s - Nuxt3 Guide JP",
 });
 </script>
 
