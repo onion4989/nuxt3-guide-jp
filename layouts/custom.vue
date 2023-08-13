@@ -14,12 +14,6 @@
   </div>
 </template>
 
-<script setup>
-useHead({
-  titleTemplate: "%s - Nuxt3 Guide JP",
-});
-</script>
-
 <style>
 .content_wrap {
   max-width: 100%;
