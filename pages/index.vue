@@ -3,7 +3,7 @@
 
     <section>
       <div class="bg-gray-50 border border-gray-200 text-sm text-black rounded-md p-4" role="alert">
-        <h3 class="text-center my-2">-READE ME-</h3>
+        <h1 class="text-lg lg:text-3xl text-center my-2">-READE ME-</h1>
         このサイトは<NuxtLink to="https://nuxt.com/docs/getting-started/introduction" class="font-bold underline decoration-dashed decoration-1 underline-offset-4" >Nuxt3公式サイトのドキュメント</NuxtLink>を日本語に翻訳したサイトです。
         翻訳の内容に違和感がある場合は、公式ページの原文を確認してください。一部、まだ追加していないページがありますが、今後、時間を見つけて追加していく予定です。
       </div>
@@ -11,7 +11,7 @@
     </section>
 
     <section>
-      <h1 class="text-lg lg:text-3xl font-bold">始めに</h1>
+      <h2 class="text-lg lg:text-2xl font-bold">始めに</h2>
       <p>
         Nuxtは、Vue.jsを使用したタイプセーフ（型安全 / 型の違いによってエラーが起こることを防ぐ仕組みのこと）で高パフォーマンスかつ本番向けのフルスタックウェブアプリケーションやウェブサイトを作成できる拡張可能な無料のオープンソースフレームワークです。
       </p>
