@@ -42,19 +42,26 @@ definePageMeta({
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">Nitro App フック(Runtime)</h2>
-      <p>これらのフックは、Nitro プラグインが Nitro のランタイム動作にフックするために使用できます。</p>
+      <p>
+        これらのフックは、<NuxtLink
+          to="https://nitro.unjs.io/guide/plugins"
+          class="underline decoration-dashed decoration-1 underline-offset-4"
+          >Nitro プラグイン</NuxtLink
+        >がNitro のランタイム動作にフックするために使用できます。
+      </p>
     </section>
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">Nitro プラグイン内での使用方法</h2>
       <ContentDoc path="guide/going-furture/lifecycle-hooks/usage-within-a-nitro-plugin" class="markdown-body" />
-      <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
-        role="alert"
-      >
+      <p class="tips">
         <span class="sr-only">Info</span>
-        <div>利用可能な Nitro ライフサイクル フックの詳細をご覧ください。</div>
-      </div>
+        利用可能な<NuxtLink
+          to="https://nuxt.com/docs/api/advanced/hooks"
+          class="underline decoration-dashed decoration-1 underline-offset-4"
+          >Nitro ライフサイクルフック</NuxtLink
+        >の詳細をご覧ください。
+      </p>
     </section>
 
     <section>
