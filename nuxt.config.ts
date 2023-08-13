@@ -27,10 +27,10 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    pageTransition: {
+    /*pageTransition: {
       name: "page",
       mode: "out-in",
-    },
+    },*/
     head: {
       title: "Nuxt3 Guide JP",
       htmlAttrs: {
