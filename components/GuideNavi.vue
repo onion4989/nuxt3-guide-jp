@@ -317,12 +317,12 @@
                   >Nuxtキット</NuxtLink
                 >
               </li>
-              <li>NuxtApp</li>
-              <li>Authoring Nuxt Layers</li>
-              <li>custom routes</li>
-              <li>Debugging</li>
-              <li>Runtime Config</li>
-              <li>Edge Release Channel</li>
+              <li><span class="line-through">NuxtApp</span></li>
+              <li><span class="line-through">Authoring Nuxt Layers</span></li>
+              <li><span class="line-through">custom routes</span></li>
+              <li><span class="line-through">Debugging</span></li>
+              <li><span class="line-through">Runtime Config</span></li>
+              <li><span class="line-through">Edge Release Channel</span></li>
             </ul>
           </div>
         </div>
