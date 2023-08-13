@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true,
   },
-  modules: ["@nuxt/devtools", "@nuxt/content", "nuxt-vercel-analytics"],
+  modules: ["@nuxt/devtools", "@nuxt/content"],
   components: [
     {
       path: "~/components",
