@@ -34,7 +34,7 @@ definePageMeta({
       <p>
         開発モードで.envファイルを更新すると、Nuxtインスタンスは自動的に再起動され、新しい値がprocess.envに適用されます。
       </p>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         注意：.envファイルから変数を削除したり、.envファイルを完全に削除したりしても、既に設定されている値は削除されません。
       </div>

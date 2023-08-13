@@ -130,7 +130,7 @@ definePageMeta({
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">公開の方法</h2>
-      <div class="bg-orange-50 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         モジュールを npm に公開する前に、npmjs.com アカウントを持っていること、および<code
           class="word-highlight text-sm"
@@ -313,7 +313,7 @@ definePageMeta({
         <span class="sr-only">Info</span>
         <div>アセットインジェクションの詳細については、「レシピ」セクションをご覧ください。</div>
       </div>
-      <div class="bg-yellow-100 border border-orange-200 text-sm rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         <p>
           公開されたモジュールは、ランタイム
@@ -400,7 +400,7 @@ definePageMeta({
         >を使用して必要な構成を公開することをお勧めします。
       </p>
       <ContentDoc path="guide/going-furture/module-author-guide/exposing-options-to-runtime" class="markdown-body" />
-      <div class="bg-yellow-100 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         プライベート API キーなどの機密モジュール構成はパブリック バンドルに含まれるため、パブリック
         ランタイム構成で公開しないように注意してください。
@@ -648,7 +648,7 @@ definePageMeta({
         フックに延期することをお勧めします。
       </p>
 
-      <div class="bg-yellow-100 border border-orange-200 text-sm rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         モジュールのセットアップに 1 秒以上かかる場合、Nuxt はそれに関する警告を発します。
       </div>

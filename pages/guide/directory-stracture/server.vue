@@ -57,7 +57,7 @@ definePageMeta({
       <p>
         ミドルウェアハンドラーは、他のサーバールートの前にすべてのリクエストで実行され、ヘッダーの追加や確認、リクエストの記録、イベントのリクエストオブジェクトの拡張などが行われます。
       </p>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         ミドルウェアハンドラーは、何も返さないで（リクエストを終了または応答しないで）、リクエストのコンテキストを検査または拡張するか、エラーをスローするだけであるべきです。
       </div>
@@ -157,7 +157,7 @@ definePageMeta({
         これにより、$fetch('/api/submit', { method: 'post', body: { test: 123 }
         })を使ってこのAPIを汎用的に呼び出すことができます。
       </p>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         submit.post.tsというファイル名を使用するのは、リクエストボディを受け入れることができるPOSTメソッドに一致するためです。GETリクエスト内でreadBodyを使用すると、readBodyは405
         Method Not Allowed HTTPエラーをスローします。
@@ -204,7 +204,7 @@ definePageMeta({
       <h2 class="text-lg lg:text-2xl font-bold">高度な使用例</h2>
       <h3 class="text-lg lg:text-2xl font-bold my-5">Nitroの設定</h3>
       <p>nuxt.configでnitroキーを使用することで、Nitroの設定を直接設定することができます。</p>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         これは高度なオプションです。カスタム構成は本番デプロイに影響を与える可能性があります。なぜなら、NitroがNuxtのセマンティックバージョンのマイナーバージョンでアップグレードされると、構成インターフェースが変更されることがあるからです。
       </div>

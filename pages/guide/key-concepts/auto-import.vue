@@ -50,7 +50,7 @@ definePageMeta({
       <p>
         Nuxtは、データの取得を行うためやアプリケーションのコンテキストやランタイム設定にアクセスするため、状態を管理するため、またはコンポーネントやプラグインを定義するために、関数やコンポーザブルを自動的にインポートします。
       </p>
-      <ContentDoc path="guide/keyconcept/auto-imports/nuxt-auto-import" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/auto-imports/nuxt-auto-import" class="markdown-body" />
     </section>
 
     <section>
@@ -59,7 +59,7 @@ definePageMeta({
         Vue
         3は、refやcomputedなどのリアクティビティAPI、そしてライフサイクルフックやヘルパーなどを公開しており、これらはNuxtによって自動的にインポートされます。
       </p>
-      <ContentDoc path="guide/keyconcept/auto-imports/vue-auto-import" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/auto-imports/vue-auto-import" class="markdown-body" />
     </section>
 
     <section>
@@ -80,37 +80,19 @@ definePageMeta({
         unavailable」というエラーメッセージが表示された場合、おそらくVueやNuxtのライフサイクルの誤った場所でNuxtのコンポーザブルを呼び出している可能性があります。
       </p>
       <p>このコメントには完全な説明が記載されています。</p>
-      <div class="bg-yellow-50 border border-yellow-200 rounded-md p-4" role="alert">
-        <div class="flex">
-          <div class="flex-shrink-0">
-            <svg
-              class="h-4 w-4 text-yellow-400 mt-0.5"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
-              />
-            </svg>
-          </div>
-          <div class="ml-4">
-            <div class="mt-1 text-sm text-yellow-700">
-              このセクションのドキュメントはまだ完全ではありません。あなたもドキュメントに貢献することができます。
-            </div>
-          </div>
-        </div>
+
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
+        <span class="sr-only">Info</span>
+        このセクションのドキュメントはまだ完全ではありません。あなたもドキュメントに貢献することができます。
       </div>
     </section>
 
     <section>
       <h3 class="text-lg lg:text-2xl font-bold">事例</h3>
       <p>例: 間違った例（Breaking code）:</p>
-      <ContentDoc path="guide/keyconcept/auto-imports/compornents-bad-example" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/auto-imports/compornents-bad-example" class="markdown-body" />
       <p>例: 修正後（Fixing the error）:</p>
-      <ContentDoc path="guide/keyconcept/auto-imports/compornents-fix-example" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/auto-imports/compornents-fix-example" class="markdown-body" />
     </section>
 
     <section>
@@ -128,7 +110,7 @@ definePageMeta({
       <p>
         Nuxtは、必要に応じてインポートを明示的に行うために、#importsエイリアスですべての自動インポートを公開します。
       </p>
-      <ContentDoc path="guide/keyconcept/auto-imports/explicit-import" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/auto-imports/explicit-import" class="markdown-body" />
     </section>
 
     <section>
@@ -136,7 +118,7 @@ definePageMeta({
       <p>
         自動インポートされるコンポーザブルとユーティリティを無効にしたい場合は、nuxt.configファイルでimports.autoImportをfalseに設定することができます。
       </p>
-      <ContentDoc path="guide/keyconcept/auto-imports/desabling-auto-import" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/auto-imports/desabling-auto-import" class="markdown-body" />
       <p>
         それにより、自動インポートは完全に無効になりますが、引き続き#importsから明示的なインポートを使用することができます。
       </p>
@@ -159,7 +141,7 @@ definePageMeta({
       <p>
         ~/componentsディレクトリからの自動コンポーネントのインポートを無効にするには、components.dirsを空の配列に設定します（ただし、これはモジュールによって追加されたコンポーネントには影響を与えないことに注意してください）。
       </p>
-      <ContentDoc path="guide/keyconcept/auto-imports/auto-import-compornents" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/auto-imports/auto-import-compornents" class="markdown-body" />
     </section>
   </div>
 </template>

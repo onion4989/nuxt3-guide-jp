@@ -26,7 +26,7 @@ definePageMeta({
         >は <code class="text-sm inline-block rounded bg-gray-600 text-white p-1">some-layout</code>になります。）
       </p>
       <p>もしアプリケーションに1つのレイアウトしかない場合は、app.vue を使用することをおすすめします。</p>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         他のコンポーネントとは異なり、レイアウトはレイアウトの変更間でトランジションを適用するために、1つのルート要素を持つ必要があります。そして、このルート要素は
         <code class="text-sm inline-block rounded bg-gray-600 text-white p-1">&lt;slot /&gt;</code
@@ -99,7 +99,7 @@ definePageMeta({
         >コンポーネントを使用することで、完全な制御を取ることができます。
       </p>
       <ContentDoc path="guide/directry-stracture/layouts/layout-false" class="markdown-body" />
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         ページ内で<code class="text-sm inline-block rounded bg-gray-600 text-white p-1">&lt;NuxtLayout&gt;</code>
         を使用する場合は、ルート要素にならないようにしてください（またはレイアウト/ページのトランジションを無効にしてください）。

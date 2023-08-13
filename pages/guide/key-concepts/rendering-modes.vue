@@ -128,7 +128,7 @@ definePageMeta({
         クライアントサイドレンダリングは、インデックス化が必要でないか、ユーザーが頻繁に訪れる必要がある、非常にインタラクティブなウェブアプリケーションに適しています。ブラウザのキャッシュを活用して、SaaS、バックオフィスアプリケーション、オンラインゲームなど、後続の訪問時にダウンロードフェーズをスキップすることができます。
       </p>
       <p>Nuxtでは、nuxt.config.tsファイルでクライアントサイドのみのレンダリングを有効にすることができます。</p>
-      <ContentDoc path="guide/keyconcept/rendering-modes/ssr-false" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/rendering-modes/ssr-false" class="markdown-body" />
       <div
         class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-300"
         role="alert"
@@ -158,7 +158,7 @@ definePageMeta({
         Nuxtサーバーは、自動的に対応するミドルウェアを登録し、Nitroキャッシュレイヤーを使用してルートをキャッシュハンドラーでラップします。
       </p>
       <h4>例:</h4>
-      <ContentDoc path="guide/keyconcept/rendering-modes/hybrid-rendering" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/rendering-modes/hybrid-rendering" class="markdown-body" />
       <p>使用できる異なるプロパティは以下の通りです：</p>
       <ul class="list-disc">
         <li>
@@ -199,8 +199,8 @@ definePageMeta({
       <p>
         可能な限り、ルートルールはデプロイメントプラットフォームのネイティブルールに自動的に適用され、最適なパフォーマンスが得られます（現在はNetlifyとVercelがサポートされています）。
       </p>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
-        <span class="font-bold">Warning</span>nuxt
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
+        <span class="sr-only">Info</span>nuxt
         generateを使用する場合、ハイブリッドレンダリングは利用できないことに注意してください。
       </div>
       <p>

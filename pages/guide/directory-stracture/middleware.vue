@@ -102,7 +102,7 @@ definePageMeta({
         <span class="sr-only">Info</span>
         <div>「ドキュメント > API > ユーティリティ > ナビゲーション中止」を参照する。</div>
       </div>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         以下のヘルパー関数を使用してリダイレクトを行ったり、ナビゲーションを中止したりすることをおすすめします。vue-routerのドキュメントに記載されている他の返り値も動作するかもしれませんが、将来的に互換性のない変更が発生する可能性があります。
       </div>

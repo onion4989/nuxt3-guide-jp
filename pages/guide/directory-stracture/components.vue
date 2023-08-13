@@ -86,7 +86,7 @@ definePageMeta({
       </p>
       <span>事例：</span>
       <ContentDoc path="guide/directry-stracture/components/components-is" class="markdown-body" />
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         resolveComponentを使用して動的なコンポーネントを処理する場合は、コンポーネントの名前以外のものは挿入しないようにしてください。コンポーネントの名前は文字列である必要があり、変数ではないことを確認してください。
       </div>
@@ -146,12 +146,12 @@ definePageMeta({
         接尾辞を追加することができます。
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-file-name-client-only" class="markdown-body" />
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         この機能は、Nuxtの自動インポートと #components
         からのインポートでのみ機能します。これらのコンポーネントを実際のパスから明示的にインポートすると、それらがクライアント側のみのコンポーネントに変換されるわけではありません。
       </div>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md my-4 p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Warning</span>
         .client コンポーネントは、マウントされた後にのみレンダリングされます。onMounted()
         を使用してレンダリングされたテンプレートにアクセスするには、onMounted() フックのコールバック内に await

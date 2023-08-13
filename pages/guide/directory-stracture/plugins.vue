@@ -10,7 +10,7 @@ definePageMeta({
       <p>
         Nuxtは、Vueアプリケーションの作成時に、自動的にpluginsディレクトリ内のファイルを読み込みます。ファイル名に.serverや.clientという接尾辞を使うと、サーバー側またはクライアント側でのみプラグインを読み込むことができます
       </p>
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         plugins/ディレクトリ内のすべてのプラグインは自動的に登録されるので、nuxt.configに別途追加する必要はありません
       </div>
@@ -127,7 +127,7 @@ definePageMeta({
       <h2 class="text-lg lg:text-2xl font-bold">高度な設定</h2>
       <p>高度な使用方法では、次のように挿入されたプロパティのタイプを宣言できます。</p>
       <ContentDoc path="guide/directry-stracture/plugins/advanced" class="markdown-body" />
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         WebStorm を使用している場合は、この問題が解決されるまで @vue/runtime-core を拡張する必要がある場合があります。
       </div>

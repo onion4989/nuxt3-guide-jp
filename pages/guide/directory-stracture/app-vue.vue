@@ -38,7 +38,7 @@ definePageMeta({
         </div>
       </div>
 
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         app.vueはNuxtアプリケーションのメインコンポーネントとして機能します。app.vueに追加したすべてのコード（JavaScriptとCSS）はグローバルであり、すべてのページに含まれます。
       </div>

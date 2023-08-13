@@ -19,13 +19,10 @@ definePageMeta({
         <li>public/ ディレクトリから提供されない画像ファイル。</li>
       </ul>
       <p>もしサーバーからアセットを提供したい場合は、public/ ディレクトリを見てみることをおすすめします。</p>
-      <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
-        role="alert"
-      >
+      <p class="tips">
         <span class="sr-only">Info</span>
-        <div>詳細は「ドキュメント > はじめに > アセット」をご参照ください。</div>
-      </div>
+        詳細は「ドキュメント > はじめに > アセット」をご参照ください。
+      </p>
     </section>
   </div>
 </template>
