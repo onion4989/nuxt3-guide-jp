@@ -14,7 +14,6 @@
     "@types/node": "^18",
     "autoprefixer": "^10.4.14",
     "nuxt": "^3.6.1",
-    "nuxt-vercel-analytics": "^0.2.2",
     "postcss": "^8.4.24",
     "preline": "^1.9.0",
     "tailwindcss": "^3.3.2"

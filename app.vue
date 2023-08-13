@@ -8,6 +8,6 @@
 
 <script setup>
 useHead({
-  titleTemplate: "%s - Nuxt3 Guide JP",
+  titleTemplate: "%s - Nuxt3 ガイド 日本語版",
 });
 </script>
