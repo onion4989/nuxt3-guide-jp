@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true,
   },
+  plugins: [
+    {
+      src: "~/plugins/vercel.ts",
+      mode: "client",
+    },
+  ],
   modules: ["@nuxt/devtools", "@nuxt/content"],
   components: [
     {
