@@ -32,11 +32,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  app: {
-    /*pageTransition: {
+  /*app: {
+    pageTransition: {
       name: "page",
       mode: "out-in",
-    },*/
+    },
     head: {
       title: "Nuxt3 Guide JP",
       htmlAttrs: {
@@ -56,7 +56,7 @@ export default defineNuxtConfig({
         },
       ],
     },
-  },
+  },*/
   vite: {
     define: {
       "process.env.DEBUG": false,
