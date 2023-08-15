@@ -41,13 +41,13 @@
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">新規プロジェクト</h2>
-      <h3 class="text-1xl font-bold my-1">前提条件</h3>
-      <ul class="list-disc ml-5">
-        <li>
+      <h3 class="text-1xl font-bold my-4">前提条件</h3>
+      <ul class="list-disc ml-5 my-6">
+        <li class="my-2">
           Node.js - <code class="text-sm inline-block rounded bg-gray-600 text-white p-1">v16.10.0</code> or
           それ以上のバージョン
         </li>
-        <li>
+        <li class="my-2">
           テキストエディタ -
           <NuxtLink
             to="https://code.visualstudio.com/"
@@ -59,7 +59,7 @@
             >Volar</NuxtLink
           >拡張機能を推奨。
         </li>
-        <li>ターミナル - Nuxtコマンドを実行するためのターミナル。</li>
+        <li class="my-2">ターミナル - Nuxtコマンドを実行するためのターミナル。</li>
       </ul>
       <p class="tips">最適なセットアップのための追加の注意事項:</p>
       <p>

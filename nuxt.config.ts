@@ -71,4 +71,9 @@ export default defineNuxtConfig({
       "composables",
     ],
   },
+  nitro: {
+    prerender: {
+      routes: ["/sitemap.xml"],
+    },
+  },
 });
