@@ -83,12 +83,12 @@ pre {
   border-radius: 3px;
 }
 
-.list-decimal,
-.list-disc {
-  margin-left: 2rem;
+nav .list-decimal,
+nav .list-disc {
+  margin-left: 2.1rem;
 }
-.list-decimal li,
-.list-disc li {
+nav .list-decimal li,
+nav .list-disc li {
   margin: 0.5rem 0;
 }
 

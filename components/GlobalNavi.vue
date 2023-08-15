@@ -7,6 +7,7 @@
       <ul class="global-navi hidden sm:flex m-auto">
         <li><NuxtLink to="/">始めに</NuxtLink></li>
         <li><NuxtLink to="/guide/key-concepts/auto-import">ガイド</NuxtLink></li>
+        <li><NuxtLink to="/install-build-manual">構築マニュアル</NuxtLink></li>
       </ul>
       <div class="sm:hidden">
         <button

@@ -1,3 +1,3 @@
 <template>
-  <GlobalNavi />
+  <GlobalNavi id="top" />
 </template>

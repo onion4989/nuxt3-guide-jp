@@ -81,8 +81,11 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">動的なコンポーネント</h2>
       <p>
-        Vueの &lt;component :is="someComputedComponent"&gt;
-        構文を使用したい場合は、Vueが提供するresolveComponentヘルパーを使用するか、直接#componentsから（コンポーネントを）インポートしてisプロパティに渡す必要があります。
+        Vueの<code class="word-highlight text-sm">&lt;component :is="someComputedComponent"&gt;</code>
+        構文を使用したい場合は、Vueが提供する<code class="word-highlight text-sm">resolveComponent</code
+        >ヘルパーを使用するか、直接<code class="word-highlight text-sm">#components</code
+        >から（コンポーネントを）インポートして<code class="word-highlight text-sm">is</code
+        >プロパティに渡す必要があります。
       </p>
       <span>事例：</span>
       <ContentDoc path="guide/directry-stracture/components/components-is" class="markdown-body" />
@@ -95,7 +98,9 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-global" class="markdown-body" />
       <p>
-        また、特定のコンポーネントを選択してグローバルに登録する場合は、~/components/globalディレクトリに配置することもできます。
+        また、特定のコンポーネントを選択してグローバルに登録する場合は、<code class="word-highlight text-sm"
+          >~/components/global</code
+        >ディレクトリに配置することもできます。
       </p>
       <div
         class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
@@ -114,16 +119,14 @@ definePageMeta({
         コンポーネントを動的にインポートするために（コンポーネントの遅延読み込み）、コンポーネントの名前の前にLazyプレフィックスを追加するだけです。
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-lazy-layout" class="markdown-body" />
-      <p>
-        Lazyプレフィックスを使用すると、コンポーネントが常に必要ではない場合に特に便利です。Lazyプレフィックスを使うことで、コンポーネントのコードを必要なタイミングまで遅延させることができます。これはJavaScriptバンドルのサイズを最適化するのに役立ちます。
-      </p>
-      <ContentDoc path="guide/directry-stracture/components/components-lazy-prefix-pages" class="markdown-body" />
     </section>
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">直接的なインポート</h2>
       <p>
-        必要に応じて、Nuxtの自動インポート機能をバイパスするために、#components
+        必要に応じて、Nuxtの自動インポート機能をバイパスするために、<code class="word-highlight text-sm"
+          >#components</code
+        >
         から明示的にコンポーネントをインポートすることもできます。
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-direct-imports" class="markdown-body" />
@@ -132,7 +135,9 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">&lt;ClientOnly&gt; コンポーネント</h2>
       <p>
-        Nuxtは、意図的にクライアント側のみでコンポーネントをレンダリングするための&lt;ClientOnly&gt;コンポーネントを提供します。クライアント側のみでコンポーネントをインポートする場合は、クライアント側のみのプラグイン内でコンポーネントを登録します。
+        Nuxtは、意図的にクライアント側のみでコンポーネントをレンダリングするための<code class="word-highlight text-sm"
+          >&lt;ClientOnly&gt;</code
+        >コンポーネントを提供します。クライアント側のみでコンポーネントをインポートする場合は、クライアント側のみのプラグイン内でコンポーネントを登録します。
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-client-only" class="markdown-body" />
       <p>&lt;ClientOnly&gt;がクライアント側でマウントされるまで、スロットをフォールバックとして使用します。</p>
@@ -148,21 +153,28 @@ definePageMeta({
       <ContentDoc path="guide/directry-stracture/components/components-file-name-client-only" class="markdown-body" />
       <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
-        この機能は、Nuxtの自動インポートと #components
+        この機能は、Nuxtの自動インポートと<code class="word-highlight text-sm">#components</code>
         からのインポートでのみ機能します。これらのコンポーネントを実際のパスから明示的にインポートすると、それらがクライアント側のみのコンポーネントに変換されるわけではありません。
       </div>
       <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Warning</span>
-        .client コンポーネントは、マウントされた後にのみレンダリングされます。onMounted()
-        を使用してレンダリングされたテンプレートにアクセスするには、onMounted() フックのコールバック内に await
-        nextTick() を追加してください。
+        <code class="word-highlight text-sm">.client</code
+        >コンポーネントは、マウントされた後にのみレンダリングされます。<code class="word-highlight text-sm"
+          >onMounted()</code
+        >
+        を使用してレンダリングされたテンプレートにアクセスするには、<code class="word-highlight text-sm"
+          >onMounted()</code
+        >フックのコールバック内に await nextTick() を追加してください。
       </div>
     </section>
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">.server コンポーネント</h2>
       <p>
-        .server コンポーネントは、単独で使用することも、.client コンポーネントと組み合わせて使用することもできます。
+        <code class="word-highlight text-sm">.server</code>コンポーネントは、単独で使用することも、<code
+          class="word-highlight text-sm"
+          >.client</code
+        >コンポーネントと組み合わせて使用することもできます。
       </p>
     </section>
 
@@ -176,8 +188,9 @@ definePageMeta({
         >Nuxt サーバー コンポーネント動画</NuxtLink
       >
       <p>
-        Server componentsは現在実験的な機能であり、これを使用するには、nuxt.configで 'component islands'
-        機能を有効にする必要があります。
+        Server componentsは現在実験的な機能であり、これを使用するには、<code class="word-highlight text-sm"
+          >nuxt.config</code
+        >で 'component islands' 機能を有効にする必要があります。
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-experimental" class="markdown-body" />
       <p>
@@ -226,7 +239,10 @@ definePageMeta({
       <h2 class="text-lg lg:text-2xl font-bold">ライブラリの作者</h2>
       <p>Vueコンポーネントライブラリを自動的なツリーシェイキングとコンポーネント登録で作成することはとても簡単です。</p>
       <p>
-        Nuxtモジュール内で、ユーザーの設定を必要とせずにディレクトリリストを拡張するために、components:dirsフックを使用することができます。
+        Nuxtモジュール内で、ユーザーの設定を必要とせずにディレクトリリストを拡張するために、<code
+          class="word-highlight text-sm"
+          >components:dirs</code
+        >フックを使用することができます。
       </p>
       <p>以下のようなディレクトリ構造を想像してください：</p>
       <ContentDoc path="guide/directry-stracture/components/components-imagine-structure" class="markdown-body" />

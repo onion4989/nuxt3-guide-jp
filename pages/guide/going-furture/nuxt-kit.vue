@@ -27,7 +27,7 @@ definePageMeta({
 
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">使用方法</h2>
-      <h3 class="font-bold">依存関係のインストール</h3>
+      <h3 class="font-bold my-4">依存関係のインストール</h3>
       <p>
         最新のNuxtキットを<code class="word-highlight text-sm">package.json</code
         >の依存関係セクションに追加することで、インストールできます。 ただし、<code class="word-highlight text-sm"

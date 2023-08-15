@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="lg:sticky lg:top-16 lg:self-start overflow-x-hidden overflow-y-auto h-full">
-      <ul class="flex flex-col gap-2 m-auto">
+      <ul class="list-decimal flex flex-col m-auto">
         <li><NuxtLink to="/" data-hs-overlay="#hs-overlay-body-scrolling">始めに</NuxtLink></li>
         <li><NuxtLink to="/installation" data-hs-overlay="#hs-overlay-body-scrolling">インストール方法</NuxtLink></li>
         <li><NuxtLink to="/configuration" data-hs-overlay="#hs-overlay-body-scrolling">設定</NuxtLink></li>
