@@ -6,7 +6,7 @@
     <main class="container my-24 mx-auto px-4 md:px-8 z-10">
       <section class="grid grid-cols-10 gap-4">
         <aside
-          class="hidden col-span-2 overflow-x-hidden overflow-y-auto lg:block lg:self-start lg:max-h-100 lg:top-16 lg:sticky pl-14"
+          class="hidden col-span-2 overflow-x-hidden overflow-y-auto lg:block lg:self-start lg:max-h-100 lg:top-16 lg:sticky pl-10"
         >
           <PageMenuNavi />
         </aside>

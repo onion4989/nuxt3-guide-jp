@@ -20,7 +20,7 @@ definePageMeta({
         </div>
       </div>
       <p>ルートミドルウェア(route middleware)には3種類あります:</p>
-      <ul class="list-decimal">
+      <ul class="list-decimal ml-6 my-6">
         <li class="pb-5">
           <div class="font-bold underline decoration-dashed underline-offset-4 decoration-gray-300 mx-1 mb-1">
             匿名（またはインライン）ルートミドルウェア
@@ -48,7 +48,7 @@ definePageMeta({
       <p>ルートミドルウェアは、現在のルートと次のルートを引数として受け取るナビゲーションガードです。</p>
       <ContentDoc path="guide/directry-stracture/middleware/format" class="markdown-body" />
       <p>Nuxtは、ミドルウェアから直接返すことができる2つのグローバルに利用可能なヘルパーを提供しています。</p>
-      <ul class="list-decimal">
+      <ul class="list-decimal ml-6 my-6">
         <li class="pb-5">
           <div class="font-bold">navigateTo</div>
           与えられたルートにリダイレクトします。プラグインやミドルウェアの内部で使用することができます。また、ページナビゲーションを行うために直接呼び出すこともできます。
@@ -69,7 +69,7 @@ definePageMeta({
         Vue
         Routerのドキュメントのナビゲーションガードとは異なり、Nuxtのルートミドルウェアでは第3のnext()引数は渡されず、リダイレクトやルートのキャンセルはミドルウェアから値を返すことで処理されます。
       </p>
-      <ul class="list-decimal">
+      <ul class="list-decimal ml-6 my-6">
         <li class="pb-5">
           「nothing」は、ナビゲーションをブロックせず、次のミドルウェア関数があればそちらに移動し、ない場合はルートのナビゲーションを完了します。
         </li>
@@ -91,9 +91,9 @@ definePageMeta({
         <span class="sr-only">Info</span>
         <div>「ドキュメント > API > ユーティリティ > ナビゲート」を参照する。</div>
       </div>
-      <ul>
-        <li>return abortNavigation()は、現在のナビゲーションを中止します。</li>
-        <li>return abortNavigation(error)は、エラーを伴う形で現在のナビゲーションを拒否します。</li>
+      <ul class="list-disc ml-6 my-6">
+        <li class="my-4">return abortNavigation()は、現在のナビゲーションを中止します。</li>
+        <li class="my-4">return abortNavigation(error)は、エラーを伴う形で現在のナビゲーションを拒否します。</li>
       </ul>
       <div
         class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
@@ -111,18 +111,18 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">ミドルウェアの実行順序</h2>
       <p>ミドルウェアは以下の順序で実行されます:</p>
-      <ul class="list-decimal">
-        <li>グローバルミドルウェア</li>
-        <li>ページに定義されたミドルウェアの順序（複数のミドルウェアが配列構文で宣言されている場合）</li>
+      <ul class="list-decimal ml-8">
+        <li class="my-4">グローバルミドルウェア</li>
+        <li class="my-4">ページに定義されたミドルウェアの順序（複数のミドルウェアが配列構文で宣言されている場合）</li>
       </ul>
       <p>例えば、以下のようなミドルウェアとコンポーネントがあると仮定します:</p>
       <ContentDoc path="guide/directry-stracture/middleware/define-pagemeta-to-from" class="markdown-body" />
       <p>以下の順序でミドルウェアが実行されることが予想されます:</p>
-      <ul class="list-decimal">
-        <li>analytics.global.ts</li>
-        <li>setup.global.ts</li>
-        <li>Custom inline middleware</li>
-        <li>auth.ts</li>
+      <ul class="list-decimal ml-8">
+        <li class="my-4">analytics.global.ts</li>
+        <li class="my-4">setup.global.ts</li>
+        <li class="my-4">Custom inline middleware</li>
+        <li class="my-4">auth.ts</li>
       </ul>
     </section>
 

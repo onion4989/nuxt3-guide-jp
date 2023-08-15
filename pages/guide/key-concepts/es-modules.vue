@@ -20,7 +20,7 @@ definePageMeta({
         CommonJS
         (CJS)は、Node.jsによって導入されたフォーマットであり、孤立したJavaScriptモジュール間で機能を共有することを可能にします（詳細はこちらを参照）。おそらくこの構文には既におなじみかもしれません：
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/common-js-modules" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/common-js-modules" class="markdown-body" />
       <p>
         WebpackやRollupなどのバンドラーは、この構文をサポートしており、CommonJSで書かれたモジュールをブラウザで使用することができます。
       </p>
@@ -32,7 +32,7 @@ definePageMeta({
         ほとんどの場合、ESM（ECMAScript
         Modules）とCJS（CommonJS）について話す際は、異なるモジュール記述の構文について言及しています。
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/esm-syntax" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/esm-syntax" class="markdown-body" />
       <p>
         ECMAScript
         Modules（ESM）が標準となる前（それには10年以上かかりました！）、webpackなどのツールやTypeScriptなどの言語は、いわゆるESM構文をサポートし始めました。しかし、実際の仕様といくつかの重要な違いがあります。詳細な説明はこちらを参照してください。
@@ -48,7 +48,7 @@ definePageMeta({
       <p>
         モジュールをパッケージにインストールする場合、事情は少し異なります。サンプルライブラリの場合、CJSとESMの両方のバージョンを公開し、どちらを選択するかを選ぶことができます。
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/native-esm" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/native-esm" class="markdown-body" />
       <p>
         そうです、Nuxt
         2では、バンドラー（webpack）はサーバービルドにCJSファイル（'main'）を取り込み、クライアントビルドにはESMファイル（'module'）を使用します。
@@ -56,9 +56,9 @@ definePageMeta({
       <p>
         最近のNode.jsのLTSリリースでは、ネイティブESMモジュールをNode.js内で使用することが可能になりました。つまり、Node.js自体がESM構文を使ってJavaScriptを処理できるようになりましたが、デフォルトではそのように動作しません。ESM構文を有効にする最も一般的な方法は2つあります：
       </p>
-      <ul class="list-disc">
-        <li>package.json内で"type:module"を設定し、ESMファイルの拡張子として.jsを引き続き使用します。</li>
-        <li>.mjsファイル拡張子を使用することもできます（推奨）。</li>
+      <ul class="list-disc ml-6">
+        <li class="my-4">package.json内で"type:module"を設定し、ESMファイルの拡張子として.jsを引き続き使用します。</li>
+        <li class="my-4">.mjsファイル拡張子を使用することもできます（推奨）。</li>
       </ul>
       <p>
         Nuxt
@@ -73,10 +73,10 @@ definePageMeta({
       </p>
       <p>動的インポート（const b = await import('sample-library')のような）についても同様です。</p>
       <p>Nodeは次の種類のインポートをサポートしています（ドキュメントを参照）：</p>
-      <ul class="list-decimal">
-        <li>.mjsで終わるファイル - これらはESM構文を使用することが期待されています。</li>
-        <li>.cjsで終わるファイル - これらはCJS構文を使用することが期待されています。</li>
-        <li>
+      <ul class="list-decimal ml-6">
+        <li class="my-4">.mjsで終わるファイル - これらはESM構文を使用することが期待されています。</li>
+        <li class="my-4">.cjsで終わるファイル - これらはCJS構文を使用することが期待されています。</li>
+        <li class="my-4">
           .jsで終わるファイル - これらは、package.jsonに"type":
           "module"が設定されていない限り、CJS構文を使用することが期待されています。ただし、"type":
           "module"が設定されている場合はESM構文を使用します。
@@ -92,11 +92,11 @@ definePageMeta({
       <p>
         しかし、Node.jsのESMコンテキストで.esm.jsファイルを持つパッケージをインポートしようとすると、うまく動作せず、次のようなエラーが発生します：
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/esm-error" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/esm-error" class="markdown-body" />
       <p>
         もしNode.jsがESM構文としてではなくCJSと認識してしまったESM構文ビルドからの名前付きインポートを行うと、同様のエラーが発生することがあります。
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/cjs" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/cjs" class="markdown-body" />
     </section>
 
     <section>
@@ -111,14 +111,14 @@ definePageMeta({
       <p>
         その間、これらのライブラリをNuxtがインポートしようとしないように、build.transpileにそれらを追加することで指定できます。
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/transpile" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/transpile" class="markdown-body" />
       <p>はい、これらのライブラリによってインポートされている他のパッケージも追加する必要があるかもしれません。</p>
     </section>
 
     <section>
       <h2 class="text-3xl font-bold">ライブラリのエイリアス化</h2>
       <p>場合によっては、ライブラリをCJSバージョンに手動でエイリアスする必要があるかもしれません。例えば：</p>
-      <ContentDoc path="guide/keyconcept/es-modules/alias" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/alias" class="markdown-body" />
     </section>
 
     <section>
@@ -126,42 +126,42 @@ definePageMeta({
       <p>
         CommonJS形式の依存関係は、module.exportsまたはexportsを使用してデフォルトエクスポートを提供することができます。
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/module-exports-1" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/module-exports-1" class="markdown-body" />
       <p>通常、このような依存関係をrequireする場合はうまく動作します。</p>
-      <ContentDoc path="guide/keyconcept/es-modules/require-2" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/require-2" class="markdown-body" />
       <p>
         Node.jsのネイティブESMモード、esModuleInteropを有効にしたTypeScript、およびWebpackなどのバンドラーは、「interop
         require
         default」としてよく知られる互換性メカニズムを提供し、このようなライブラリをデフォルトでインポートできるようにしています。
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/cjs-pkg-3" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/cjs-pkg-3" class="markdown-body" />
       <p>
         しかし、構文の検出と異なるバンドル形式の複雑さのため、常にinterop
         defaultが失敗する可能性があり、次のような問題に直面することがあります：
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/cjs-pkg-3" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/cjs-pkg-3" class="markdown-body" />
       <p>動的インポート構文を使用する場合（CJSとESMの両方のファイルで）、常にこのような状況に直面します。</p>
-      <ContentDoc path="guide/keyconcept/es-modules/cjs-pkg-in-both-4" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/cjs-pkg-in-both-4" class="markdown-body" />
       <p>この場合、デフォルトエクスポートを手動でInteropする必要があります。</p>
-      <ContentDoc path="guide/keyconcept/es-modules/cjs-pkg-default-export-5" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/cjs-pkg-default-export-5" class="markdown-body" />
       <p>
         より複雑な状況を処理し、より安全に対応するために、Nuxt
         3ではmllyを推奨しており、内部で使用しています。mllyは名前付きエクスポートを保持することができます。
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/mlly-6" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/mlly-6" class="markdown-body" />
     </section>
 
     <section>
       <h2 class="text-3xl font-bold">ライブラリ作成者ガイド</h2>
       <p>良いニュースは、ESMの互換性の問題を修正するのは比較的簡単だということです。主なオプションは2つあります：</p>
-      <ul class="list-decimal">
-        <li>
+      <ul class="list-decimal ml-6">
+        <li class="my-4">
           ESMファイルの拡張子を.mjsで終わるようにリネームできる
           <div>
             これは推奨されている最も簡単なアプローチです。ライブラリの依存関係やビルドシステムの問題を整理する必要があるかもしれませんが、ほとんどの場合、これで問題が解決するでしょう。また、CJSファイルの拡張子も.cjsで終わるようにリネームすることを推奨します。これにより、最も明確な表現になります。
           </div>
         </li>
-        <li>
+        <li class="my-4">
           ライブラリ全体をESMのみにすることも選択肢としてあります。
           <div>
             その場合、package.jsonに"type":
@@ -174,26 +174,26 @@ definePageMeta({
     <section>
       <h2 class="text-3xl font-bold">移行</h2>
       <p>CJSからESMへの最初のステップは、requireの使用をimportに更新することです。</p>
-      <ContentDoc path="guide/keyconcept/es-modules/migration-before-after-1" class="markdown-body"/>
-      <ContentDoc path="guide/keyconcept/es-modules/migration-mylib-before-after-2" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/migration-before-after-1" class="markdown-body" />
+      <ContentDoc path="guide/keyconcept/es-modules/migration-mylib-before-after-2" class="markdown-body" />
       <p>
         ESMモジュールでは、CJSとは異なり、require、require.resolve、__filename、__dirnameのグローバル変数は使用できず、代わりにimport()とimport.meta.filenameに置き換える必要があります。
       </p>
-      <ContentDoc path="guide/keyconcept/es-modules/esm-module-3" class="markdown-body"/>
-      <ContentDoc path="guide/keyconcept/es-modules/esm-module-4" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/esm-module-3" class="markdown-body" />
+      <ContentDoc path="guide/keyconcept/es-modules/esm-module-4" class="markdown-body" />
     </section>
 
     <section>
       <h2 class="text-3xl font-bold">ベストプラクティス</h2>
-      <ul class="list-disc">
-        <li>
+      <ul class="list-disc ml-6">
+        <li class="my-4">
           デフォルトエクスポートよりも名前付きエクスポートを優先してください。これにより、CJSの競合が減少します。（デフォルトエクスポートのセクションを参照してください）
         </li>
-        <li>
+        <li class="my-4">
           できる限り、Node.jsのビルトインやCommonJS、Node.js専用の依存関係に依存しないようにしてください。これにより、Nitroのポリフィルを必要とせずに、ライブラリをブラウザやEdge
           Workersで使用できるようになります。
         </li>
-        <li>
+        <li class="my-4">
           新しいexportsフィールドを使用して条件付きエクスポートを行ってください。（<NuxtLink
             to="https://nodejs.org/api/packages.html#conditional-exports"
             about="_blank"
@@ -201,7 +201,7 @@ definePageMeta({
           >）
         </li>
       </ul>
-      <ContentDoc path="guide/keyconcept/es-modules/best-practices" class="markdown-body"/>
+      <ContentDoc path="guide/keyconcept/es-modules/best-practices" class="markdown-body" />
     </section>
   </div>
 </template>

@@ -11,9 +11,9 @@ definePageMeta({
         Nuxtはmodules/ディレクトリをスキャンし、アプリケーションの開始前にそれらを読み込みます。このディレクトリは、アプリケーションを構築する際に開発したローカルモジュールを配置するのに適した場所です。
       </p>
       <p>自動登録されるファイルのパターンは次のとおりです:</p>
-      <ul class="list-disc">
-        <li>modules/*/index.ts</li>
-        <li>modules/*.ts</li>
+      <ul class="list-disc ml-6 my-6">
+        <li class="my-2">modules/*/index.ts</li>
+        <li class="my-2">modules/*.ts</li>
       </ul>
       <p>それらのローカルモジュールをnuxt.config.tsに別途追加する必要はありません。</p>
       <ContentDoc path="guide/directry-stracture/modules/define-nuxt-module" class="markdown-body" />

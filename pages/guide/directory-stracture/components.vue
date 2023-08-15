@@ -89,6 +89,7 @@ definePageMeta({
       </p>
       <span>事例：</span>
       <ContentDoc path="guide/directry-stracture/components/components-is" class="markdown-body" />
+      aly
       <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         resolveComponentを使用して動的なコンポーネントを処理する場合は、コンポーネントの名前以外のものは挿入しないようにしてください。コンポーネントの名前は文字列である必要があり、変数ではないことを確認してください。
@@ -213,7 +214,7 @@ definePageMeta({
         コンポーネントはコンポーネントの2つの「ハーフ」であり、サーバーとクライアント側で別々の実装を行う高度な使用例で使用することができます。
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-comments" class="markdown-body" />
-      <div class="bg-orange-50 border border-orange-200 text-sm text-orange-600 rounded-md p-4" role="alert">
+      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
         <span class="sr-only">Info</span>
         コンポーネントのクライアント側の部分がサーバーでレンダリングされたHTMLを正しくハイドレート（復元）できることが重要です。つまり、初回のロード時に同じHTMLをレンダリングする必要があります。そうしないと、ハイドレーションの不一致が発生する可能性があります。
       </div>

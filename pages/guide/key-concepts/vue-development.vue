@@ -122,10 +122,10 @@ definePageMeta({
         Nuxt 3はVue
         3をベースにしています。新しいメジャーバージョンのVueでは、いくつかの変更が導入されており、Nuxtはこれを活用しています。
       </p>
-      <ul class="list-decimal">
-        <li>より良いパフォーマンス</li>
-        <li>Composition API</li>
-        <li>TypeScriptサポート</li>
+      <ul class="list-decimal ml-12">
+        <li class="my-2">より良いパフォーマンス</li>
+        <li class="my-2">Composition API</li>
+        <li class="my-2">TypeScriptサポート</li>
       </ul>
     </section>
 
@@ -168,8 +168,8 @@ definePageMeta({
 
       <ContentDoc path="guide/keyconcept/vue-devlopment/composition-api-reactivity" class="markdown-body" />
       <p>Nuxt3の目標は、Composition APIを中心に優れた開発者体験を提供することです。</p>
-      <ul class="list-disc">
-        <li>
+      <ul class="list-disc ml-6">
+        <li class="my-2">
           Vueと<NuxtLink
             to="https://nuxt.com/docs/api/composables/use-async-data"
             class="underline decoration-dashed decoration-1 underline-offset-4"
@@ -180,7 +180,7 @@ definePageMeta({
             >リアクティビティ関数</NuxtLink
           >を使用してください。
         </li>
-        <li>
+        <li class="my-2">
           <code class="word-highlight text-sm">composables/</code
           >ディレクトリに自分自身で自動インポートされる再利用可能な関数を書いてください。
         </li>

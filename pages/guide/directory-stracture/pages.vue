@@ -93,12 +93,12 @@ definePageMeta({
       <p>
         もちろん、アプリ全体で独自の目的でメタデータを定義することはできますが、definePageMetaで定義された一部のメタデータには特定の目的があります：
       </p>
-      <ul class="list-disc">
-        <li class="pb-5">
+      <ul class="list-disc ml-6 my-6">
+        <li class="my-4 pb-2">
           <div class="font-bold">エイリアス</div>
           ページのエイリアスを定義することができます。これにより、異なるパスから同じページにアクセスできます。これは、vue-routerのドキュメントで定義されているように、文字列または文字列の配列であることができます。
         </li>
-        <li class="pb-5">
+        <li class="my-4 pb-2">
           <div class="font-bold">KeepAlive</div>
           <p>
             definePageMeta で keepalive: true
@@ -110,30 +110,30 @@ definePageMeta({
           </p>
           <p>このプロパティのデフォルト値をnuxt.configで設定することができます。</p>
         </li>
-        <li class="pb-5">
+        <li class="my-4 pb-2">
           <div class="font-bold">key</div>
           上記を参照してください。
         </li>
-        <li class="pb-5">
+        <li class="my-4 pb-2">
           <div class="font-bold">layout</div>
           ルートのレンダリングに使用するレイアウトを定義することができます。これは、false（レイアウトを無効にするため）、文字列、またはref/computedのいずれかであり、リアクティブにする場合はref/computedを使用できます。レイアウトについての詳細はこちらを参照してください。
         </li>
-        <li class="pb-5">
+        <li class="my-4 pb-2">
           <div class="font-bold">レイアウトトランジション と ページトランジション</div>
           <p>
             &lt;transition&gt;コンポーネントのトランジションプロパティを定義したり、特定のルートの&lt;transition&gt;ラッパーを無効にするために、nuxt.config.jsのpageTransitionとlayoutTransitionオプションを使用できます。これらのオプションを使用して、ページとレイアウトのトランジション効果をカスタマイズすることができます。
           </p>
           <p>プロパティのデフォルト値をnuxt.config.jsで設定することができます。</p>
         </li>
-        <li class="pb-5">
+        <li class="my-4 pb-2">
           <div class="font-bold">middleware</div>
           ページを読み込む前に適用するミドルウェアを定義できます。このミドルウェアは、一致する親/子ルートのミドルウェアと結合されます。ミドルウェアは文字列、関数（グローバルなbeforeガードのパターンに従った無名/インラインのミドルウェア関数）、または文字列/関数の配列として定義することができます。詳細については、名前付きミドルウェアに関するドキュメントをご覧ください。
         </li>
-        <li class="pb-5">
+        <li class="my-4 pb-2">
           <div class="font-bold">name</div>
           ページのルートに名前を定義することができます。
         </li>
-        <li class="pb-5">
+        <li class="my-4 pb-2">
           <div class="font-bold">path</div>
           ファイル名で表現することができないより複雑なパターンがある場合、パスマッチャーを定義することができます。詳細はvue-routerのドキュメントを参照してください。
         </li>

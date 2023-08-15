@@ -12,10 +12,10 @@ definePageMeta({
         Nuxtはこれらのディレクトリ内のファイルを自動的にスキャンして、APIやサーバーハンドラーをHMR（Hot Module
         Replacement）対応で登録します。
       </p>
-      <ul class="list-disc">
-        <li>~/server/api</li>
-        <li>~/server/routes</li>
-        <li>~/server/middleware</li>
+      <ul class="list-disc ml-6 my-6">
+        <li class="my-2">~/server/api</li>
+        <li class="my-2">~/server/routes</li>
+        <li class="my-2">~/server/middleware</li>
       </ul>
       <p>
         各ファイルは、defineEventHandler() または
@@ -135,10 +135,10 @@ definePageMeta({
       </p>
       <ContentDoc path="guide/directry-stracture/server/matching-http-method" class="markdown-body" />
       <p>上記の例を考えると、/testを以下のようにフェッチします：</p>
-      <ul class="list-disc">
-        <li>GETメソッド：Testのgetハンドラーを返します。</li>
-        <li>POSTメソッド：Testのpostハンドラーを返します。</li>
-        <li>他のどんなメソッドでも、405エラーを返します。</li>
+      <ul class="list-disc ml-6 my-6">
+        <li class="my-2">GETメソッド：Testのgetハンドラーを返します。</li>
+        <li class="my-2">POSTメソッド：Testのpostハンドラーを返します。</li>
+        <li class="my-2">他のどんなメソッドでも、405エラーを返します。</li>
       </ul>
     </section>
 

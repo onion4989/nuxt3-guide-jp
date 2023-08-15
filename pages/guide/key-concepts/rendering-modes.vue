@@ -35,12 +35,12 @@ definePageMeta({
 
       <div class="my-6">
         <h4 class="font-bold">サーバーサイドレンダリングの欠点：</h4>
-        <ul class="list-disc my-2">
-          <li>
+        <ul class="list-disc ml-6">
+          <li class="my-6">
             <div><strong>開発の制約</strong></div>
             サーバーとブラウザの環境は同じAPIを提供しないため、両方の環境でシームレスに動作するコードを書くのは難しいことがあります。幸いなことに、Nuxtはガイドラインと特定の変数を提供しており、コードがどちらの環境で実行されているかを判断するのに役立ちます。
           </li>
-          <li>
+          <li class="my-6">
             <div><strong>コスト</strong></div>
             ページをリアルタイムでレンダリングするためには、サーバーが稼働している必要があります。これにより、従来のサーバーと同様に、毎月のコストが発生します。ただし、ブラウザがクライアントサイドのナビゲーションを引き継ぐユニバーサルレンダリングにより、サーバーコールが大幅に削減されます。エッジサイドレンダリングを活用することでコスト削減が可能です。
           </li>
@@ -49,12 +49,12 @@ definePageMeta({
 
       <div class="my-6">
         <h4 class="font-bold">サーバーサイドレンダリングの利点：</h4>
-        <ul class="list-disc my-2">
-          <li>
+        <ul class="list-disc ml-6">
+          <li class="my-6">
             <div><strong>パフォーマンス</strong></div>
             ブラウザは静的コンテンツをJavaScriptによって生成されたコンテンツよりもはるかに速く表示できるため、ユーザーはページのコンテンツに直ちにアクセスできます。同時に、Nuxtはハイドレーションプロセスが行われる際にウェブアプリケーションの対話性を保持します。
           </li>
-          <li>
+          <li class="my-6">
             <div><strong>検索エンジン最適化（SEO）</strong></div>
             ユニバーサルレンダリングはクラシックなサーバーアプリケーションとしてブラウザにページの全HTMLコンテンツを提供します。ウェブクローラーは直接ページのコンテンツをインデックスできるため、ユニバーサルレンダリングは迅速にインデックスしたいコンテンツには最適な選択肢です。
           </li>
@@ -94,16 +94,16 @@ definePageMeta({
 
       <div class="my-6">
         <h4 class="font-bold">クライアントサイドレンダリングの利点</h4>
-        <ul class="list-disc my-2">
-          <li>
+        <ul class="list-disc ml-6">
+          <li class="my-4">
             <div><strong>開発速度</strong></div>
             クライアントサイドのみで作業する場合、サーバーの互換性を心配する必要がなくなります。たとえば、windowオブジェクトのようなブラウザ専用のAPIを使用することがあります。
           </li>
-          <li>
+          <li class="my-4">
             <div><strong>コスト削減</strong></div>
             サーバーを実行することは、JavaScriptをサポートするプラットフォームで実行する必要があるため、インフラストラクチャのコストがかかります。クライアントのみのアプリケーションは、HTML、CSS、およびJavaScriptファイルがあれば、任意の静的サーバーでホストできます。
           </li>
-          <li>
+          <li class="my-4">
             <div><strong>オフライン利用</strong></div>
             コードが完全にブラウザで実行されるため、インターネットが利用できない場合でも、アプリケーションはスムーズに動作し続けることができます。
           </li>
@@ -112,12 +112,12 @@ definePageMeta({
 
       <div class="my-6">
         <h4 class="font-bold">クライアントサイドレンダリングの欠点</h4>
-        <ul class="list-disc my-2">
-          <li>
+        <ul class="list-disc ml-6">
+          <li class="my-4">
             <div><strong>パフォーマンス</strong></div>
             ユーザーは、ブラウザがJavaScriptファイルをダウンロード、解析、実行するのを待たなければなりません。ダウンロード部分にはネットワーク、解析および実行にはユーザーのデバイスによって時間がかかることがあり、ユーザーエクスペリエンスに影響を与える可能性があります。
           </li>
-          <li>
+          <li class="my-4">
             <div><strong>検索エンジン最適化（SEO）</strong></div>
             クライアントサイドレンダリングで提供されるコンテンツのインデックス化と更新には、サーバー側でレンダリングされたHTMLドキュメントよりも時間がかかります。これは、前述のパフォーマンスの欠点と関連しています。検索エンジンのクローラーは、ページのインデックス化のためにインターフェースが完全にレンダリングされるのを最初の試行で待ちません。純粋なクライアントサイドレンダリングでは、コンテンツが表示されるまでおよび検索結果ページで更新されるまでに時間がかかる可能性があります。
           </li>
@@ -127,7 +127,10 @@ definePageMeta({
       <p>
         クライアントサイドレンダリングは、インデックス化が必要でないか、ユーザーが頻繁に訪れる必要がある、非常にインタラクティブなウェブアプリケーションに適しています。ブラウザのキャッシュを活用して、SaaS、バックオフィスアプリケーション、オンラインゲームなど、後続の訪問時にダウンロードフェーズをスキップすることができます。
       </p>
-      <p>Nuxtでは、nuxt.config.tsファイルでクライアントサイドのみのレンダリングを有効にすることができます。</p>
+      <p>
+        Nuxtでは、<code class="word-highlight text-sm">nuxt.config.ts</code
+        >ファイルでクライアントサイドのみのレンダリングを有効にすることができます。
+      </p>
       <ContentDoc path="guide/keyconcept/rendering-modes/ssr-false" class="markdown-body" />
       <div
         class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-300"
@@ -160,38 +163,38 @@ definePageMeta({
       <h4>例:</h4>
       <ContentDoc path="guide/keyconcept/rendering-modes/hybrid-rendering" class="markdown-body" />
       <p>使用できる異なるプロパティは以下の通りです：</p>
-      <ul class="list-disc">
-        <li>
+      <ul class="list-disc ml-6">
+        <li class="my-4">
           <div><strong>redirect: string</strong></div>
           サーバーサイドのリダイレクトを定義します。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>ssr: boolean</strong></div>
           アプリケーションの一部のセクションに対してサーバーサイドレンダリングを無効にし、ssr: false
           を使用してSPAのみにします。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>cors: boolean</strong></div>
           cors: true
           を使用すると、自動的にcorsヘッダーが追加されます。ヘッダーをオーバーライドして出力をカスタマイズすることもできます。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>headers: object</strong></div>
           サイトの特定のセクションに特定のヘッダーを追加します。たとえば、アセットに対してヘッダーを設定することができます。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>swr: number</strong></div>
           サーバーレスポンスにキャッシュヘッダーを追加し、設定可能なTTL（有効期限）でサーバーまたはリバースプロキシでキャッシュします。Nitroのnode-serverプリセットはフルレスポンスをキャッシュできます。TTLが切れた場合、キャッシュされたレスポンスが送信され、ページがバックグラウンドで再生成されます。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>isr: boolean</strong></div>
           swrと同様の動作ですが、これをサポートするプラットフォーム（現在はNetlifyまたはVercel）のCDNキャッシュにレスポンスを追加することができます。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>prerender: boolean</strong></div>
           ビルド時にルートをプリレンダリングし、それらをビルドに静的アセットとして含めます。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>experimentalNoScripts: boolean</strong></div>
           サイトの特定のセクションで、NuxtスクリプトやJSリソースヒントのレンダリングを無効にします。
         </li>
@@ -228,32 +231,32 @@ definePageMeta({
         Workersなど、さまざまなプラットフォームに対応しています。
       </p>
       <p class="font-bold">ESRを利用できる現在のプラットフォームは以下のとおりです：</p>
-      <ul class="list-disc">
-        <li>
+      <ul class="list-disc ml-6">
+        <li class="my-4">
           <div><strong>Cloudflare Pages</strong></div>
           gitの統合とnuxt buildコマンドを使用してゼロ設定でESRを利用できます。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>Lagon</strong></div>
           NITRO_PRESET=lagon npx nuxt buildコマンドを使用してESRを利用できます。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>Vercel Edge Functions</strong></div>
           nuxt buildコマンドとNITRO_PRESET=vercel-edge環境変数を使用してESRを利用できます。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>Netlify Edge Functions</strong></div>
           nuxt buildコマンドとNITRO_PRESET=netlify-edge環境変数を使用してESRを利用できます。
         </li>
       </ul>
       <p>ESRを使用する場合、ハイブリッドレンダリングはルートルールとともに使用できることに注意してください。</p>
       <p>上記に挙げたプラットフォームに展開されたオープンソースの例を探索できます：</p>
-      <ul class="list-disc">
-        <li>
+      <ul class="list-disc ml-6">
+        <li class="my-4">
           <div><strong>Nuxt Todos Edge:</strong></div>
           ユーザー認証、SSR、およびSQLiteを備えたタスク管理アプリケーションです。
         </li>
-        <li>
+        <li class="my-4">
           <div><strong>Atinotes:</strong></div>
           編集可能なウェブサイトで、ユニバーサルレンダリングが使用されています。
         </li>

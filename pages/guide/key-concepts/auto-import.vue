@@ -98,17 +98,18 @@ definePageMeta({
     <section>
       <h3 class="text-lg lg:text-2xl font-bold">ディレクトリベースの自動インポート</h3>
       <p>Nuxtは、定義されたディレクトリに作成されたファイルを直接自動的にインポートします。</p>
-      <ul class="list-disc">
-        <li>componentsはVueコンポーネントのためのディレクトリです。</li>
-        <li>composablesはVueコンポーザブルのためのディレクトリです。</li>
-        <li>utilsはヘルパー関数やその他のユーティリティのためのディレクトリです。</li>
+      <ul class="list-disc ml-6">
+        <li class="my-1">componentsはVueコンポーネントのためのディレクトリです。</li>
+        <li class="my-1">composablesはVueコンポーザブルのためのディレクトリです。</li>
+        <li class="my-1">utilsはヘルパー関数やその他のユーティリティのためのディレクトリです。</li>
       </ul>
     </section>
 
     <section>
       <h3 class="text-lg lg:text-2xl font-bold">明示的なインポート</h3>
       <p>
-        Nuxtは、必要に応じてインポートを明示的に行うために、#importsエイリアスですべての自動インポートを公開します。
+        Nuxtは、必要に応じてインポートを明示的に行うために、<code class="word-highlight text-sm">#imports</code
+        >エイリアスですべての自動インポートを公開します。
       </p>
       <ContentDoc path="guide/keyconcept/auto-imports/explicit-import" class="markdown-body" />
     </section>
@@ -116,7 +117,9 @@ definePageMeta({
     <section>
       <h3 class="text-lg lg:text-2xl font-bold">自動インポートの無効化</h3>
       <p>
-        自動インポートされるコンポーザブルとユーティリティを無効にしたい場合は、nuxt.configファイルでimports.autoImportをfalseに設定することができます。
+        自動インポートされるコンポーザブルとユーティリティを無効にしたい場合は、<code class="word-highlight text-sm"
+          >nuxt.config</code
+        >ファイルでimports.autoImportを<code class="word-highlight text-sm">false</code>に設定することができます。
       </p>
       <ContentDoc path="guide/keyconcept/auto-imports/desabling-auto-import" class="markdown-body" />
       <p>
@@ -127,7 +130,8 @@ definePageMeta({
     <section>
       <h3 class="text-lg lg:text-2xl font-bold">自動インポートされたコンポーネント</h3>
       <p>
-        Nuxtは、~/componentsディレクトリからも自動的にコンポーネントをインポートしますが、これはコンポーザブルやユーティリティ関数の自動インポートとは別に設定されています。
+        Nuxtは、<code class="word-highlight text-sm">~/components</code
+        >ディレクトリからも自動的にコンポーネントをインポートしますが、これはコンポーザブルやユーティリティ関数の自動インポートとは別に設定されています。
       </p>
 
       <div
@@ -139,7 +143,8 @@ definePageMeta({
       </div>
 
       <p>
-        ~/componentsディレクトリからの自動コンポーネントのインポートを無効にするには、components.dirsを空の配列に設定します（ただし、これはモジュールによって追加されたコンポーネントには影響を与えないことに注意してください）。
+        <code class="word-highlight text-sm">~/components</code
+        >ディレクトリからの自動コンポーネントのインポートを無効にするには、components.dirsを空の配列に設定します（ただし、これはモジュールによって追加されたコンポーネントには影響を与えないことに注意してください）。
       </p>
       <ContentDoc path="guide/keyconcept/auto-imports/auto-import-compornents" class="markdown-body" />
     </section>

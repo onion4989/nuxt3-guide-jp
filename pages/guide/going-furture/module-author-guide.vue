@@ -37,13 +37,13 @@ definePageMeta({
         >プロジェクトが作成されます。
       </p>
       <p>次のステップ:</p>
-      <ul class="list-decimal">
-        <li>選択した IDE で<code class="word-highlight text-sm">my-module</code>を開きます。</li>
-        <li>お気に入りのパッケージ マネージャーを使用して依存関係をインストールする。</li>
-        <li>
+      <ul class="list-decimal ml-12 my-6">
+        <li class="my-2">選択した IDE で<code class="word-highlight text-sm">my-module</code>を開きます。</li>
+        <li class="my-2">お気に入りのパッケージ マネージャーを使用して依存関係をインストールする。</li>
+        <li class="my-2">
           <code class="word-highlight text-sm">npm run dev:prepare</code>を使用して開発用のローカル ファイルを準備する。
         </li>
-        <li>Nuxt モジュールの詳細については、このドキュメントに従ってください。</li>
+        <li class="my-2">Nuxt モジュールの詳細については、このドキュメントに従ってください。</li>
       </ul>
     </section>
 
@@ -63,12 +63,12 @@ definePageMeta({
         アプリケーションです。
       </p>
       <p>他の Nuxt アプリケーションと同様に、プレイグラウンドを操作できます。</p>
-      <ul class="list-disc">
-        <li>
+      <ul class="list-disc ml-10 my-6">
+        <li class="my-2">
           <code class="word-highlight text-sm">npm run dev</code>を使用して開発サーバーを起動します。src
           ディレクトリ内のモジュールに変更を加えると、開発サーバー自体がリロードされます。
         </li>
-        <li><code class="word-highlight text-sm">npm run dev:build</code>でビルドします。</li>
+        <li class="my-2"><code class="word-highlight text-sm">npm run dev:build</code>でビルドします。</li>
       </ul>
       <div
         class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
@@ -89,9 +89,9 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">テスト方法</h2>
       <p>モジュール スターターには、基本的なテスト スイートが付属しています。</p>
-      <ul class="list-disc">
-        <li>ESLint : <code class="word-highlight text-sm">npm run lint</code>で実行します。</li>
-        <li>
+      <ul class="list-disc ml-10 my-6">
+        <li class="my-2">ESLint : <code class="word-highlight text-sm">npm run lint</code>で実行します。</li>
+        <li class="my-2">
           Vitest : <code class="word-highlight text-sm">npm run test</code>または<code class="word-highlight text-sm"
             >npm run test:watch</code
           >で実行します。
@@ -155,21 +155,21 @@ definePageMeta({
       </p>
       <p>リリース スクリプトを実行すると、次のことが起こります:</p>
       <p>まず、次の方法でテスト スイートを実行します:</p>
-      <ul class="list-disc my-4">
-        <li>リンターの実行 (<code class="word-highlight text-sm">npm run lint</code>)</li>
-        <li>
+      <ul class="list-disc ml-10 my-4">
+        <li class="my-2">リンターの実行 (<code class="word-highlight text-sm">npm run lint</code>)</li>
+        <li class="my-2">
           単体テスト、統合テスト、および e2e テストの実行 (<code class="word-highlight text-sm">npm run test</code>)
         </li>
-        <li>モジュールのビルド (<code class="word-highlight text-sm">npm run prepack</code>)</li>
+        <li class="my-2">モジュールのビルド (<code class="word-highlight text-sm">npm run prepack</code>)</li>
       </ul>
       <p>その後、テスト スイートがうまくいった場合は、モジュールの公開が続行されます。</p>
-      <ul class="list-disc my-4">
-        <li>従来のコミットに従ってモジュールのバージョンを上げ、変更ログを生成する</li>
-        <li>
+      <ul class="list-disc ml-10 my-4">
+        <li class="my-2">従来のコミットに従ってモジュールのバージョンを上げ、変更ログを生成する</li>
+        <li class="my-2">
           モジュールを npm に公開します
           (そのために、モジュールは再度ビルドされ、更新されたバージョン番号が公開されたアーティファクトで確実に考慮されます)
         </li>
-        <li>新しく公開されたバージョンを表すgitタグをgitリモートのoriginにプッシュする</li>
+        <li class="my-2">新しく公開されたバージョンを表すgitタグをgitリモートのoriginにプッシュする</li>
       </ul>
       <div
         class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
@@ -195,12 +195,12 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">モジュールの構造</h2>
       <p>2 種類の Nuxt モジュールが考えられます:</p>
-      <ul class="list-disc">
-        <li>
+      <ul class="list-disc ml-10 my-6">
+        <li class="my-2">
           公開されたモジュールは npm で配布されます。Nuxt Web サイトでいくつかのコミュニティ
           モジュールのリストを確認できます。
         </li>
-        <li>
+        <li class="my-2">
           「ローカル」モジュール。それらは Nuxt プロジェクト自体内に存在し、
           <NuxtLink
             to="https://nuxt.com/docs/api/configuration/nuxt-config#modules"
@@ -243,26 +243,26 @@ definePageMeta({
           >setup</code
         >関数を呼び出します。
       </p>
-      <ul class="list-disc">
-        <li>
+      <ul class="list-disc ml-10 my-6">
+        <li class="my-2">
           モジュールオプションを自動的にマージするための<code class="word-highlight text-sm">defaults</code>と<code
             class="word-highlight text-sm"
             >meta.configKey</code
           >をサポート
         </li>
-        <li>型ヒントと自動型推論</li>
-        <li>基本的な Nuxt 2 互換性のためにシムを追加する</li>
-        <li>
+        <li class="my-2">型ヒントと自動型推論</li>
+        <li class="my-2">基本的な Nuxt 2 互換性のためにシムを追加する</li>
+        <li class="my-2">
           meta.name または meta.configKey から計算された一意のキーを使用してモジュールが 1
           回だけインストールされるようにする
         </li>
-        <li>Nuxt フックを自動的に登録する</li>
-        <li>モジュールメタに基づいて互換性の問題を自動的にチェックします</li>
-        <li>Nuxt の内部使用のために getOptions と getMeta を公開する</li>
-        <li>
+        <li class="my-2">Nuxt フックを自動的に登録する</li>
+        <li class="my-2">モジュールメタに基づいて互換性の問題を自動的にチェックします</li>
+        <li class="my-2">Nuxt の内部使用のために getOptions と getMeta を公開する</li>
+        <li class="my-2">
           モジュールが最新のdefineNuxtModuleを使用している限り、下位互換性と上位互換性を確保します。@nuxt/kitのバージョン
         </li>
-        <li>モジュールビルダーツールとの統合</li>
+        <li class="my-2">モジュールビルダーツールとの統合</li>
       </ul>
     </section>
 
@@ -281,10 +281,10 @@ definePageMeta({
         それが、ランタイム ディレクトリによって可能になります。
       </p>
       <p>ランタイム ディレクトリ内では、Nuxt アプリに関連するあらゆる種類のアセットを提供できます:</p>
-      <ul class="list-disc">
-        <li>Vue components</li>
-        <li>Composables</li>
-        <li>Nuxt plugins</li>
+      <ul class="list-disc ml-10 my-6">
+        <li class="my-2">Vue components</li>
+        <li class="my-2">Composables</li>
+        <li class="my-2">Nuxt plugins</li>
       </ul>
       <p>
         <NuxtLink
@@ -293,17 +293,17 @@ definePageMeta({
           >サーバーエンジン Nitro</NuxtLink
         >に対して:
       </p>
-      <ul class="list-disc">
-        <li>API routes</li>
-        <li>Middlewares</li>
-        <li>Nitro plugins</li>
+      <ul class="list-disc ml-10 my-6">
+        <li class="my-2">API routes</li>
+        <li class="my-2">Middlewares</li>
+        <li class="my-2">Nitro plugins</li>
       </ul>
       <p>または、ユーザーの Nuxt アプリケーションに挿入したいその他の種類のアセット:</p>
-      <ul class="list-disc">
-        <li>Stylesheets</li>
-        <li>3D models</li>
-        <li>Images</li>
-        <li>etc.</li>
+      <ul class="list-disc ml-10 my-6">
+        <li class="my-2">Stylesheets</li>
+        <li class="my-2">3D models</li>
+        <li class="my-2">Images</li>
+        <li class="my-2">etc.</li>
       </ul>
       <p>その後、モジュール定義からアプリケーション内にこれらすべてのアセットを挿入できるようになります。</p>
       <div
@@ -581,18 +581,18 @@ definePageMeta({
         >は、エンドツーエンドの方法でモジュールをテストするのに役立つ頼りになるライブラリです。
         これを採用するワークフローは次のとおりです:
       </p>
-      <ul class="list-decimal">
-        <li>
+      <ul class="list-decimal ml-12 my-6">
+        <li class="my-2">
           <code class="word-highlight text-sm">test/fixtures/*</code>内で「フィクスチャ」として使用する Nuxt
           アプリケーションを作成します。
         </li>
-        <li>テストファイル内でこのフィクスチャを使用して Nuxt をセットアップします</li>
-        <li>
+        <li class="my-2">テストファイル内でこのフィクスチャを使用して Nuxt をセットアップします</li>
+        <li class="my-2">
           <code class="word-highlight text-sm">@nuxt/test-utils</code>のユーティリティを使用してフィクスチャと対話します
           (ページのフェッチなど)
         </li>
-        <li>このフィクスチャに関連するチェックを実行します (例: 「HTML には ... が含まれています」)</li>
-        <li>リピート</li>
+        <li class="my-2">このフィクスチャに関連するチェックを実行します (例: 「HTML には ... が含まれています」)</li>
+        <li class="my-2">リピート</li>
       </ul>
       <p>実際には、フィクスチャは次のようになります:</p>
       <ContentDoc path="guide/going-furture/module-author-guide/end-to-end" class="markdown-body" />
@@ -683,10 +683,10 @@ definePageMeta({
     <section>
       <h2 class="text-lg lg:text-2xl font-bold">ドキュメントモジュールの使用法</h2>
       <p>モジュールの使用法を Readme ファイルに文書化することを検討してください。</p>
-      <ul class="list-decimal">
-        <li>このモジュールを使用する理由</li>
-        <li>このモジュールの使い方は?</li>
-        <li>このモジュールは何をするのでしょうか?</li>
+      <ul class="list-decimal ml-12 my-6">
+        <li class="my-2">このモジュールを使用する理由</li>
+        <li class="my-2">このモジュールの使い方は?</li>
+        <li class="my-2">このモジュールは何をするのでしょうか?</li>
       </ul>
       <p>統合Webサイトとドキュメントにリンクすることは常に良い考えです。</p>
     </section>
