@@ -17,6 +17,7 @@ useHead({
     { charset: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },
     { name: "description", content: "Nuxt3 リファレンスガイド 日本語版" },
+    { name: "google-site-verification", content: "6AT5cb6SvDsE-s2o166F3p2K2O4N2_h3_7Pv6TTXYXA" },
   ],
   link: [
     {
