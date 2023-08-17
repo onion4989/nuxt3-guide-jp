@@ -91,7 +91,7 @@ definePageMeta({
       <h2 class="text-lg lg:text-2xl font-bold">4.main.cssの作成</h2>
       <div class="ml-5">
         <p>
-          まずは、assets/ ディレクトリにcssフォルダを作成します。その後、cssフォルダ内にmain.css を作成してください。main.cssのインポートに関しては、「3.tailwind.config.jsの設定」ですでに行っている状態です。
+          まずは、assets/ ディレクトリにcssフォルダを作成します。その後、cssフォルダ内にmain.css を作成してください。main.cssのインポートに関しては、「2.nuxt.config.tsの設定」ですでに行っている状態です。
         </p>
         <ContentDoc path="manual/tailwind-css/create-main-css" class="markdown-body" />
       </div>
