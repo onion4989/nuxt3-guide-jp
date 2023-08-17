@@ -7,7 +7,7 @@ definePageMeta({
 <template>
   <div>
     <section>
-      <h1 class="text-lg lg:text-3xl font-bold">Visual Studio Code</h1>
+      <h1 class="text-lg lg:text-3xl font-bold">Visual Studio Codeの導入</h1>
       <p>ここではVisual Studio Code（以下、VS Code）のインストールから開発環境の構築と設定までを行います。</p>
       <p>
         VS
