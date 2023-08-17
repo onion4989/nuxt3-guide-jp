@@ -38,7 +38,7 @@ definePageMeta({
           <NuxtLink
             :to="{ path: '/manual/vscode', hash: '#configuration-settings' }"
             class="underline decoration-dashed decoration-1 underline-offset-4"
-            >Topページ制作</NuxtLink
+            >ページ制作</NuxtLink
           >
         </li>
         <li
@@ -161,6 +161,15 @@ definePageMeta({
       <div class="list-none border rounded-xl shadow-sm p-6 bg-gray-50 dark:border-gray-700 my-6">
         <NuxtLink to="/guide/directory-stracture/server" class="underline decoration-dashed decoration-1 underline-offset-4">server ディレクトリ ガイド</NuxtLink>
       </div>
+    </section>
+
+    <section>
+      <h2 class="text-lg lg:text-2xl font-bold mb-4">3.ページ制作</h2>
+      <p>ここでは、Topページを含め、各種ページを制作していきます。</p>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
     </section>
 
   </div>

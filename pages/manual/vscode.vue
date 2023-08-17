@@ -91,8 +91,9 @@ definePageMeta({
           <span class="font-bold">【VS Code拡張機能】Prettier（Code formatter）</span>
           <p class="ml-5">
             Prettierはソースコードを自動的に整形するツールです。<br />
-            見やすいように自動整形してくれるのですが、日本語環境（日本語の文章）ではやや不便な一面もあります。ケース by
-            ケースで使用してください。<br />
+            見やすいように自動整形してくれるのですが、日本語環境（日本語の文章）ではやや不便な一面もあります。<br />
+            ケース by ケースで使用してください。<br />
+            画面でコードが大きく崩れて違和感がある場合は、外したほうが良いでしょう。<br />
             <span class="text-xs">※VS Codeからインストール</span>
           </p>
         </li>
@@ -208,5 +209,9 @@ definePageMeta({
         </ul>
       </p>
     </section>
+
+    
+
+
   </div>
 </template>
