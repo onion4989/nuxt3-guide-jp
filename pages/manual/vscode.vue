@@ -165,10 +165,10 @@ definePageMeta({
             もし必要であれば、「ba」の&lt;/templete&gt;閉じタグの後に&lt;style&gt;タグを入れてください。
           </p>
           <p class="ml-5">
-            <ContentDoc path="manual/custom-snippets" class="markdown-body" />
+            <ContentDoc path="manual/vs-code/custom-snippets" class="markdown-body" />
           </p>
           <p class="ml-5">
-            <ContentDoc path="manual/custom-sample-script-tag" class="markdown-body" />
+            <ContentDoc path="manual/vs-code/custom-sample-script-tag" class="markdown-body" />
           </p>
         </li>
         <li class="mt-8">

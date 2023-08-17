@@ -89,29 +89,6 @@ definePageMeta({
       </p>
       <span>事例：</span>
       <ContentDoc path="guide/directry-stracture/components/components-is" class="markdown-body" />
-      aly
-      <div class="bg-yellow-500 border border-orange-200 text-sm rounded-md my-4 p-4" role="alert">
-        <span class="sr-only">Info</span>
-        resolveComponentを使用して動的なコンポーネントを処理する場合は、コンポーネントの名前以外のものは挿入しないようにしてください。コンポーネントの名前は文字列である必要があり、変数ではないことを確認してください。
-      </div>
-      <p>
-        代替案としてはお勧めしませんが、すべてのコンポーネントをグローバルに登録することもできます。これにより、すべてのコンポーネントに対して非同期のチャンクが作成され、アプリケーション全体で利用可能になります。
-      </p>
-      <ContentDoc path="guide/directry-stracture/components/components-global" class="markdown-body" />
-      <p>
-        また、特定のコンポーネントを選択してグローバルに登録する場合は、<code class="word-highlight text-sm"
-          >~/components/global</code
-        >ディレクトリに配置することもできます。
-      </p>
-      <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
-        role="alert"
-      >
-        <span class="sr-only">Info</span>
-        <div>
-          globalオプションは、各コンポーネントディレクトリごとに設定することもできます。つまり、特定のコンポーネントディレクトリ内のコンポーネントのみをグローバルに登録することができます。
-        </div>
-      </div>
     </section>
 
     <section>
@@ -141,8 +118,6 @@ definePageMeta({
         >コンポーネントを提供します。クライアント側のみでコンポーネントをインポートする場合は、クライアント側のみのプラグイン内でコンポーネントを登録します。
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-client-only" class="markdown-body" />
-      <p>&lt;ClientOnly&gt;がクライアント側でマウントされるまで、スロットをフォールバックとして使用します。</p>
-      <ContentDoc path="guide/directry-stracture/components/components-client-only-fallback" class="markdown-body" />
     </section>
 
     <section>
@@ -194,17 +169,6 @@ definePageMeta({
         >で 'component islands' 機能を有効にする必要があります。
       </p>
       <ContentDoc path="guide/directry-stracture/components/components-experimental" class="markdown-body" />
-      <p>
-        現在では、ファイル名に.serverを付与した（サーバーオンリーな）コンポーネントを登録することで、アプリケーション内のどこでも自動的に使用することができます。
-      </p>
-      <ContentDoc path="guide/directry-stracture/components/components-highlighted-markdown" class="markdown-body" />
-      <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
-        role="alert"
-      >
-        <span class="sr-only">Info</span>
-        <div>スロットは対話的であり、display: contents; を持つ &lt;div&gt; で囲まれています。</div>
-      </div>
     </section>
 
     <section>
@@ -247,29 +211,6 @@ definePageMeta({
       </p>
       <p>以下のようなディレクトリ構造を想像してください：</p>
       <ContentDoc path="guide/directry-stracture/components/components-imagine-structure" class="markdown-body" />
-      <p>その後、awesome-ui/nuxt.js 内で components:dirs フックを使用できます：</p>
-      <ContentDoc path="guide/directry-stracture/components/components-dirs-hook" class="markdown-body" />
-      <p>
-        以上で完了です！これでプロジェクト内で、UIライブラリを nuxt.config ファイルで
-        Nuxtモジュールとしてインポートすることができます。
-      </p>
-      <ContentDoc path="guide/directry-stracture/components/components-awesome-ui" class="markdown-body" />
-      <p>
-        ...そして、pages/index.vue でモジュールのコンポーネント（awesome-
-        でプレフィックスされたコンポーネント）を直接使用することができます。
-      </p>
-      <ContentDoc path="guide/directry-stracture/components/components-awesome-module" class="markdown-body" />
-      <p>
-        これにより、コンポーネントが使用されている場合にのみ自動的にインポートされ、また、node_modules/awesome-ui/components/
-        内のコンポーネントを更新する際にHMR（ホットモジュールリローディング）がサポートされます。
-      </p>
-      <div
-        class="flex p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-200"
-        role="alert"
-      >
-        <span class="sr-only">Info</span>
-        <div>「ドキュメント > 例 > 機能 > 自動インポート」のセクションにあるライブの例をご参照ください。</div>
-      </div>
     </section>
   </div>
 </template>

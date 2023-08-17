@@ -22,6 +22,7 @@ export default defineNuxtConfig({
     highlight: {
       // テーマ設定
       theme: "dark-plus",
+      preload: ["sass", "scss", "prisma", "shell", "bash", "vue", "xml"],
     },
   },
   pages: true,
