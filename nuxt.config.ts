@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/devtools",
     "@nuxt/content",
-    'nuxt-simple-sitemap',
+    "nuxt-simple-sitemap",
   ],
   components: [
     {
