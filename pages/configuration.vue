@@ -158,7 +158,7 @@
                 <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
                   <tr>
                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800">
-                      <NuxtLink to="Nitro" class="underline decoration-dashed decoration-1 underline-offset-4"
+                      <NuxtLink to="https://nitro.unjs.io/" class="underline decoration-dashed decoration-1 underline-offset-4"
                         >Nitro</NuxtLink
                       >
                     </td>

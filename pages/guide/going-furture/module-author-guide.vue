@@ -145,7 +145,7 @@ definePageMeta({
       </p>
       <p>
         リリース スクリプトを使用するには、まずすべての変更をコミットします (<NuxtLink
-          to="Conventional Commits"
+          to="https://www.conventionalcommits.org/en/v1.0.0/"
           class="underline decoration-dashed decoration-1 underline-offset-4"
           >Conventional Commits</NuxtLink
         >に従って、バージョンのバンプと変更ログの自動更新も利用することをお勧めします。)、<code

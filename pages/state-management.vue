@@ -17,7 +17,7 @@
         <span class="sr-only">Info</span>
         詳細は「Docs > API > Composables >
         <NuxtLink
-          to="useState はセットアップ中またはライフサイクル フック中にのみ機能します。"
+          to="https://nuxt.com/docs/api/composables/use-state"
           class="underline decoration-dashed decoration-1 underline-offset-4"
           >Use State</NuxtLink
         >」を参照してください。
