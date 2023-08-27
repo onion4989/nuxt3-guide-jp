@@ -10,6 +10,9 @@ export default defineNuxtConfig({
       mode: "client",
     },
   ],*/
+  site: {
+    url: 'https://nuxt3-guide-jp.vercel.app/',
+  },
   modules: [
     "@nuxt/devtools",
     "@nuxt/content",
