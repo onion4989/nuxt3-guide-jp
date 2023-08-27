@@ -4,12 +4,6 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true,
   },
-  /*plugins: [
-    {
-      src: "~/plugins/vercel.ts",
-      mode: "client",
-    },
-  ],*/
   site: {
     url: 'https://nuxt3-guide-jp.vercel.app/',
   },
@@ -17,6 +11,7 @@ export default defineNuxtConfig({
     "@nuxt/devtools",
     "@nuxt/content",
     "nuxt-simple-sitemap",
+    "nuxt-vercel-analytics"
   ],
   components: [
     {
@@ -50,7 +45,6 @@ export default defineNuxtConfig({
   },
   imports: {
     dirs: [
-      // Scan top-level modules
       "composables",
     ],
   },
