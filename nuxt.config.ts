@@ -10,8 +10,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/devtools",
     "@nuxt/content",
-    "nuxt-simple-sitemap",
-    "nuxt-vercel-analytics"
+    "nuxt-simple-sitemap"
   ],
   components: [
     {
